@@ -1,0 +1,7 @@
+flask
+torch
+open_clip_torch
+faiss-cpu
+rembg
+pillow
+numpy

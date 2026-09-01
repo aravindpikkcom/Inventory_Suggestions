@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Look Match</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="page">
+    <header class="bar">
+      <h1 class="wordmark">Look Match</h1>
+      <label class="upload">
+        <input type="file" id="file-input" accept="image/*" hidden>
+        <span id="upload-label">Choose a photo</span>
+      </label>
+    </header>
+
+    <main class="stage" id="stage">
+      <p class="hint" id="hint">Upload a shirt photo to find its closest matches in the inventory.</p>
+
+      <div class="hero-wrap" id="hero-wrap" hidden>
+        <div class="hero-frame">
+          <img id="hero-image" class="hero-image" alt="Selected match">
+        </div>
+        <div class="hero-caption">
+          <span id="hero-category">—</span>
+          <span class="hero-score" id="hero-score">—</span>
+        </div>
+      </div>
+
+      <div class="filmstrip" id="filmstrip" hidden>
+        <div class="thumbs" id="thumbs"></div>
+        <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
