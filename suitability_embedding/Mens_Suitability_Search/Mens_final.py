@@ -48,14 +48,14 @@ from rembg import remove
 # ----------------------------
 # CONFIG - edit these
 # ----------------------------
-SHIRT_INDEX_PATH = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt_inventory.index"
-SHIRT_METADATA_PATH = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt_metadata.json"
+SHIRT_INDEX_PATH = "/CameraAutomation/indexing/shirt_inventory.index"
+SHIRT_METADATA_PATH = "/CameraAutomation/indexing/shirt_metadata.json"
 OUTFIT_PAIRS_PATH = "outfit_pairs.json"  # produced by build_outfit_pairs.py
-RESULT_OUTPUT_PATH = "identification_result.json"  # final output written each run
+RESULT_OUTPUT_PATH = "../identification_result.json"  # final output written each run
 
 # Path to the customer's captured shirt photo - edit this directly and hit
 # Run in PyCharm, no CLI args needed.
-QUERY_IMAGE_PATH = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/suitability_embedding/img_1.png"
+QUERY_IMAGE_PATH = "/CameraAutomation/suitability_embedding/Mens_Suitability_Search/img_1.png"
 
 TOP_K_SEARCH = 10      # how many raw FAISS hits to pull before dedup
 TOP_N_SHIRTS = 5       # how many unique identified shirts to report

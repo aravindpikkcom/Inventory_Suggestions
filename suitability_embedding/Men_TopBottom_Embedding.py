@@ -27,7 +27,7 @@ from sklearn.cluster import KMeans
 SHIRT_METADATA_PATH = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt_new_metadata.json"
 PANT_METADATA_PATH = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser_metadata.json"
 
-OUTPUT_PATH = "outfit_pairs.json"
+OUTPUT_PATH = "Mens_Suitability_Search/outfit_pairs.json"
 
 TOP_K = 1                 # how many trouser matches to keep per shirt
 BIDIRECTIONAL = True       # also generate pant -> top shirts
