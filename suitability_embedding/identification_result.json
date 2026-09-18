@@ -1,0 +1,53 @@
+{
+  "query_image": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/suitability_embedding/img_1.png",
+  "shirts": {
+    "002_Black Twill Satin Solid Casual Shirt": {
+      "score": 0.7527563571929932,
+      "category": "cotton_shirt",
+      "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/002_Black Twill Satin Solid Casual Shirt/image_1.png",
+      "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/002_Black Twill Satin Solid Casual Shirt",
+      "matches": [
+        {
+          "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+          "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+        }
+      ]
+    },
+    "003_Mist Blue Linen Blend Solid Casual Shirt": {
+      "score": 0.7440004348754883,
+      "category": "cotton_shirt",
+      "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/003_Mist Blue Linen Blend Solid Casual Shirt/image_5.jpg",
+      "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/003_Mist Blue Linen Blend Solid Casual Shirt",
+      "matches": [
+        {
+          "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+          "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+        }
+      ]
+    },
+    "004_Crystal White Plain Casual Shirt": {
+      "score": 0.717240571975708,
+      "category": "cotton_shirt",
+      "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/004_Crystal White Plain Casual Shirt/image_1.jpg",
+      "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/004_Crystal White Plain Casual Shirt",
+      "matches": [
+        {
+          "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+          "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+        }
+      ]
+    },
+    "005_Ink Navy Solid Casual Shirt": {
+      "score": 0.7115137577056885,
+      "category": "cotton_shirt",
+      "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/005_Ink Navy Solid Casual Shirt/image_2.jpg",
+      "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/005_Ink Navy Solid Casual Shirt",
+      "matches": [
+        {
+          "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+          "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+        }
+      ]
+    }
+  }
+}

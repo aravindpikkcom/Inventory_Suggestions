@@ -1,0 +1,173 @@
+{
+  "001_Light Khaki Twill Satin Solid Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "002_Black Twill Satin Solid Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/002_Black Twill Satin Solid Casual Shirt",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "003_Mist Blue Linen Blend Solid Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/003_Mist Blue Linen Blend Solid Casual Shirt",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "004_Crystal White Plain Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/004_Crystal White Plain Casual Shirt",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "005_Ink Navy Solid Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/005_Ink Navy Solid Casual Shirt",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "006_Classic Black Urban Casual Shirt With Dual Pockets": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/006_Classic Black Urban Casual Shirt With Dual Pockets",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "007_Warm White Plain Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/007_Warm White Plain Casual Shirt",
+    "matches": [
+      {
+        "id": "002_Dark Olive Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/002_Dark Olive Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "008_Charcoal Grey Plain Casual Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/008_Charcoal Grey Plain Casual Shirt",
+    "matches": [
+      {
+        "id": "001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers"
+      }
+    ]
+  },
+  "001_Brick Brown Cotton Twill Satin Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Brick Brown Cotton Twill Satin Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "001_Steel Frost Solid Casual Denim Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/001_Steel Frost Solid Casual Denim Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "002_Dark Olive Cotton Twill Satin Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/002_Dark Olive Cotton Twill Satin Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "004_Crystal White Plain Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/004_Crystal White Plain Casual Shirt"
+      }
+    ]
+  },
+  "002_Sand Mouse Solid Casual Denim Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/002_Sand Mouse Solid Casual Denim Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "003_Dune Brown Solid Casual Denim Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/003_Dune Brown Solid Casual Denim Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "003_Grey Cotton Twill Satin Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/003_Grey Cotton Twill Satin Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "004_Crystal White Plain Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/004_Crystal White Plain Casual Shirt"
+      }
+    ]
+  },
+  "004_Cement Olive Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/004_Cement Olive Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "004_Dark Grey Denim Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/004_Dark Grey Denim Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "004_Crystal White Plain Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/004_Crystal White Plain Casual Shirt"
+      }
+    ]
+  },
+  "005_Iron Black Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/005_Iron Black Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "005_Noir Blue Solid Casual Denim Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/005_Noir Blue Solid Casual Denim Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  },
+  "006_Carbon Grey Solid Casual Trousers": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/trouser/cotton/006_Carbon Grey Solid Casual Trousers",
+    "matches": [
+      {
+        "id": "001_Light Khaki Twill Satin Solid Casual Shirt",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt/cotton_shirt/001_Light Khaki Twill Satin Solid Casual Shirt"
+      }
+    ]
+  }
+}

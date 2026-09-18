@@ -4,10 +4,17 @@ import time
 import requests
 
 # Shopify store + collection handle
-BASE_URL = "https://www.ottostore.com"
-COLLECTION_HANDLE = "casual-core"
+#BASE_URL = "https://www.ottostore.com"
+# BASE_URL = "https://thehouseofrare.com"
+#
+# COLLECTION_HANDLE = "casual-core"
+#
+# OUTPUT_DIR = "shirt"
 
-OUTPUT_DIR = "shirt"
+
+BASE_URL = "https://www.ottostore.com"      # unchanged — same store
+COLLECTION_HANDLE = "denim-trousers"          # <- update to the correct handle
+OUTPUT_DIR = "trouser"                        # <- change so it doesn't overwrite your shirt folder
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 headers = {

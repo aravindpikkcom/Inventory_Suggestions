@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Home — Gesture Control Sample</title>
+<style>
+  :root {
+    --bg: #14171f;
+    --panel: #1c2029;
+    --panel-2: #242938;
+    --line: #2e3444;
+    --text: #edeff5;
+    --muted: #7a8195;
+    --amber: #f2a65a;
+    --teal: #5fd4c6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 16px 40px;
+  }
+
+  .topbar {
+    width: 100%;
+    max-width: 760px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+  .topbar h1 {
+    font-size: 1.4rem;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .topbar .status {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .topbar .status.live { color: var(--teal); }
+
+  .app {
+    position: relative;
+    width: 100%;
+    max-width: 760px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 28px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .tile {
+    position: relative;
+    background: var(--panel-2);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px;
+    min-height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: border-color 0.15s ease, transform 0.12s ease, background 0.15s ease;
+  }
+  .tile .icon { font-size: 1.5rem; }
+  .tile .name { font-size: 0.95rem; font-weight: 600; }
+  .tile .state { font-size: 0.78rem; color: var(--muted); }
+  .tile.on .state { color: var(--teal); }
+  .tile.hover {
+    border-color: var(--amber);
+    transform: scale(1.03);
+  }
+  .tile.selecting {
+    border-color: var(--amber);
+    background: rgba(242,166,90,0.12);
+  }
+  .tile .ring {
+    position: absolute;
+    top: 10px; right: 10px;
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    border: 2px solid var(--line);
+  }
+  .tile.on .ring {
+    border-color: var(--teal);
+    background: rgba(95,212,198,0.15);
+  }
+  .tile .progress {
+    position: absolute;
+    bottom: 0; left: 0;
+    height: 3px;
+    background: var(--amber);
+    width: 0%;
+    border-radius: 0 0 0 16px;
+  }
+
+  .gesture-cursor {
+    position: absolute;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--amber);
+    background: rgba(242,166,90,0.25);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    display: none;
+    z-index: 5;
+  }
+  .gesture-cursor.pinch {
+    border-color: var(--teal);
+    background: rgba(95,212,198,0.35);
+  }
+
+  .hint {
+    margin-top: 16px;
+    color: var(--muted);
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  /* Camera is used only as a hidden capture source — never shown */
+  #video {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .controls {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+  }
+  button.ui {
+    background: var(--panel-2);
+    color: var(--text);
+    border: 1px solid var(--line);
+    padding: 9px 16px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  button.ui:hover { border-color: var(--amber); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <h1>Home</h1>
+  <div class="status" id="status">Camera off</div>
+</div>
+
+<div class="app" id="app">
+  <div class="grid" id="grid">
+    <!-- tiles injected by JS -->
+  </div>
+  <div class="gesture-cursor" id="cursor"></div>
+</div>
+
+<div class="controls">
+  <button class="ui" id="startBtn">Start camera</button>
+  <button class="ui" id="resetBtn">Reset all</button>
+</div>
+
+<p class="hint">Point your index finger to move the pointer over the app. Pinch (thumb + index finger together) to toggle a tile. Hold ~0.5s while pinching to confirm.</p>
+
+<video id="video" playsinline muted></video>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script>
+const DEVICES = [
+  { name: "Lights",    icon: "💡" },
+  { name: "Thermostat",icon: "🌡️" },
+  { name: "Music",     icon: "🎵" },
+  { name: "Front Lock",icon: "🔒" },
+  { name: "Blinds",    icon: "🪟" },
+  { name: "Fan",       icon: "🌀" },
+  { name: "Security",  icon: "🛡️" },
+  { name: "Kettle",    icon: "☕" },
+  { name: "TV",        icon: "📺" },
+];
+
+const grid = document.getElementById('grid');
+const appEl = document.getElementById('app');
+const cursor = document.getElementById('cursor');
+const statusEl = document.getElementById('status');
+const startBtn = document.getElementById('startBtn');
+const resetBtn = document.getElementById('resetBtn');
+const video = document.getElementById('video');
+
+const tileEls = [];
+DEVICES.forEach((d, i) => {
+  const el = document.createElement('div');
+  el.className = 'tile';
+  el.innerHTML = `
+    <div class="icon">${d.icon}</div>
+    <div>
+      <div class="name">${d.name}</div>
+      <div class="state">Off</div>
+    </div>
+    <div class="ring"></div>
+    <div class="progress"></div>
+  `;
+  grid.appendChild(el);
+  tileEls.push({ el, on: false });
+});
+
+const SELECT_DWELL_MS = 500; // pinch must be held this long over a tile to confirm
+let hoverIndex = -1;
+let pinchStart = 0;
+let wasPinching = false;
+let started = false;
+
+function toggleTile(i) {
+  const t = tileEls[i];
+  t.on = !t.on;
+  t.el.classList.toggle('on', t.on);
+  t.el.querySelector('.state').textContent = t.on ? 'On' : 'Off';
+  t.el.classList.add('selecting');
+  setTimeout(() => t.el.classList.remove('selecting'), 250);
+}
+
+function updateHoverAndCursor(uiX, uiY, pinching) {
+  cursor.style.display = 'block';
+  cursor.style.left = uiX + 'px';
+  cursor.style.top = uiY + 'px';
+  cursor.classList.toggle('pinch', pinching);
+
+  let overIndex = -1;
+  const appRect = appEl.getBoundingClientRect();
+  tileEls.forEach((t, i) => {
+    const r = t.el.getBoundingClientRect();
+    const left = r.left - appRect.left;
+    const top = r.top - appRect.top;
+    const right = r.right - appRect.left;
+    const bottom = r.bottom - appRect.top;
+    if (uiX >= left && uiX <= right && uiY >= top && uiY <= bottom) overIndex = i;
+  });
+
+  if (overIndex !== hoverIndex) {
+    tileEls.forEach((t, i) => {
+      t.el.classList.toggle('hover', i === overIndex);
+      t.el.querySelector('.progress').style.width = '0%';
+    });
+    hoverIndex = overIndex;
+    pinchStart = performance.now();
+  }
+
+  if (pinching && hoverIndex !== -1) {
+    if (!wasPinching) pinchStart = performance.now();
+    const elapsed = performance.now() - pinchStart;
+    const pct = Math.min(100, (elapsed / SELECT_DWELL_MS) * 100);
+    tileEls[hoverIndex].el.querySelector('.progress').style.width = pct + '%';
+    if (elapsed >= SELECT_DWELL_MS) {
+      toggleTile(hoverIndex);
+      pinchStart = performance.now() + 100000; // avoid re-fire until released
+    }
+  } else if (!pinching && hoverIndex !== -1) {
+    tileEls[hoverIndex].el.querySelector('.progress').style.width = '0%';
+  }
+
+  wasPinching = pinching;
+}
+
+function onResults(results) {
+  if (!results.multiHandLandmarks || results.multiHandLandmarks.length === 0) {
+    cursor.style.display = 'none';
+    hoverIndex = -1;
+    tileEls.forEach(t => { t.el.classList.remove('hover'); t.el.querySelector('.progress').style.width = '0%'; });
+    return;
+  }
+
+  const lm = results.multiHandLandmarks[0];
+  const tip = lm[8];   // index fingertip
+  const thumb = lm[4]; // thumb tip
+
+  // mirror x for natural control
+  const xNorm = 1 - tip.x;
+  const yNorm = tip.y;
+
+  // pinch distance, normalized against a hand-size reference (wrist to index MCP)
+  const wrist = lm[0], mcp = lm[5];
+  const handSize = Math.hypot(wrist.x - mcp.x, wrist.y - mcp.y) || 0.001;
+  const pinchDist = Math.hypot(tip.x - thumb.x, tip.y - thumb.y);
+  const pinching = pinchDist < 0.45 * handSize;
+
+  // map normalized coords to the main app panel (not the camera view)
+  const appRect = appEl.getBoundingClientRect();
+  const uiX = xNorm * appRect.width;
+  const uiY = yNorm * appRect.height;
+  updateHoverAndCursor(uiX, uiY, pinching);
+}
+
+async function start() {
+  if (started) return;
+  started = true;
+  statusEl.textContent = 'Starting camera…';
+
+  const hands = new Hands({
+    locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`
+  });
+  hands.setOptions({
+    maxNumHands: 1,
+    modelComplexity: 1,
+    minDetectionConfidence: 0.6,
+    minTrackingConfidence: 0.6
+  });
+  hands.onResults(onResults);
+
+  try {
+    const camera = new Camera(video, {
+      onFrame: async () => { await hands.send({ image: video }); },
+      width: 480,
+      height: 360
+    });
+    await camera.start();
+    statusEl.textContent = 'Live';
+    statusEl.classList.add('live');
+    startBtn.textContent = 'Camera running';
+    startBtn.disabled = true;
+  } catch (e) {
+    statusEl.textContent = 'Camera unavailable: ' + e.message;
+    started = false;
+  }
+}
+
+startBtn.addEventListener('click', start);
+resetBtn.addEventListener('click', () => {
+  tileEls.forEach(t => {
+    t.on = false;
+    t.el.classList.remove('on');
+    t.el.querySelector('.state').textContent = 'Off';
+  });
+});
+</script>
+</body>
+</html>

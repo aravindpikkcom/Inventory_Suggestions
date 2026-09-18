@@ -1,8 +1,9 @@
 """
 Smart Mirror - Inventory Indexing Script
 ==========================================
-Scans an inventory folder structure, removes background/isolates garment,
-generates embeddings using FashionCLIP, and builds a FAISS similarity index.
+Scans an inventory folder structure, removes background, ISOLATES the target
+garment region (e.g. just the top wear), generates embeddings using
+FashionCLIP, and builds a FAISS similarity index.
 
 Expected folder structure:
     saree_inventory/
@@ -16,7 +17,7 @@ Expected folder structure:
             ...
 
 Run:
-    pip install faiss-cpu torch torchvision open_clip_torch pillow numpy rembg onnxruntime --break-system-packages
+    pip install faiss-cpu torch torchvision open_clip_torch pillow numpy rembg onnxruntime transformers --break-system-packages
     python index_inventory.py
 """
 
@@ -31,19 +32,39 @@ import faiss
 from PIL import Image
 from rembg import remove
 import open_clip
+from transformers import SegformerImageProcessor, AutoModelForSemanticSegmentation
 
 # ----------------------------
 # CONFIG - edit these
 # ----------------------------
-INVENTORY_ROOT = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt"      # path to your folder of category folders
-INDEX_OUTPUT = "shirt_inventory.index"
-METADATA_OUTPUT = "shirt_metadata.json"
-USE_BACKGROUND_REMOVAL = True           # set False to skip segmentation and test raw images
+INVENTORY_ROOT = "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt"
+INDEX_OUTPUT = "shirt_new_inventory.index"
+METADATA_OUTPUT = "shirt_new_metadata.json"
+
+USE_BACKGROUND_REMOVAL = True           # set False to skip bg removal
 VALID_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp")
+
+# NEW: garment cropping config
+USE_GARMENT_CROP = True                 # set False to skip garment isolation (old behavior)
+# Set this to whichever part of the body this indexing run is for:
+#   "Upper-clothes" -> shirts, tops, kurtas (top half)
+#   "Pants"         -> trousers, jeans
+#   "Skirt"         -> skirts
+#   "Dress"         -> full dresses / sarees (one-piece)
+GARMENT_CLASS = "Upper-clothes"
+
+# Label map for the clothes-parsing model (mattmdjaga/segformer_b2_clothes)
+CLOTHES_LABELS = {
+    0: "Background", 1: "Hat", 2: "Hair", 3: "Sunglasses", 4: "Upper-clothes",
+    5: "Skirt", 6: "Pants", 7: "Dress", 8: "Belt", 9: "Left-shoe",
+    10: "Right-shoe", 11: "Face", 12: "Left-leg", 13: "Right-leg",
+    14: "Left-arm", 15: "Right-arm", 16: "Bag", 17: "Scarf",
+}
+LABEL_NAME_TO_ID = {v: k for k, v in CLOTHES_LABELS.items()}
 
 
 # ----------------------------
-# Load model once
+# Load models once
 # ----------------------------
 def load_model():
     device = "mps" if torch.backends.mps.is_available() else "cpu"
@@ -53,6 +74,16 @@ def load_model():
     )
     model = model.to(device).eval()
     return model, preprocess, device
+
+
+def load_parsing_model(device):
+    """Loads the clothes segmentation model used to isolate a specific
+    garment region (e.g. just the top wear) from a full-body photo."""
+    print("Loading clothes parsing model (SegFormer)...")
+    processor = SegformerImageProcessor.from_pretrained("mattmdjaga/segformer_b2_clothes")
+    seg_model = AutoModelForSemanticSegmentation.from_pretrained("mattmdjaga/segformer_b2_clothes")
+    seg_model = seg_model.to(device).eval()
+    return processor, seg_model
 
 
 def remove_background(image: Image.Image) -> Image.Image:
@@ -67,6 +98,47 @@ def remove_background(image: Image.Image) -> Image.Image:
     white_bg = Image.new("RGBA", result_img.size, (255, 255, 255, 255))
     flattened = Image.alpha_composite(white_bg, result_img).convert("RGB")
     return flattened
+
+
+def isolate_garment(image: Image.Image, processor, seg_model, device, garment_class: str) -> Image.Image:
+    """Runs clothes-parsing on the image, keeps only the pixels belonging to
+    `garment_class` (e.g. 'Upper-clothes'), crops to that region's bounding
+    box, and flattens the rest to white.
+
+    Returns the original image unchanged if the garment class isn't found
+    (so the pipeline doesn't crash on a bad/edge-case photo).
+    """
+    label_id = LABEL_NAME_TO_ID[garment_class]
+
+    inputs = processor(images=image, return_tensors="pt").to(device)
+    with torch.no_grad():
+        outputs = seg_model(**inputs)
+        logits = outputs.logits  # shape: (1, num_labels, H, W)
+
+    # upsample logits to original image size
+    upsampled = torch.nn.functional.interpolate(
+        logits, size=image.size[::-1], mode="bilinear", align_corners=False
+    )
+    pred_mask = upsampled.argmax(dim=1)[0].cpu().numpy()  # (H, W) label per pixel
+
+    mask = (pred_mask == label_id)
+
+    if not mask.any():
+        # garment class not detected in this photo - skip cropping, keep as-is
+        return image
+
+    # bounding box of the garment region
+    ys, xs = np.where(mask)
+    top, bottom = ys.min(), ys.max()
+    left, right = xs.min(), xs.max()
+
+    img_np = np.array(image.convert("RGB"))
+    white_bg = np.full_like(img_np, 255)
+    # keep only garment pixels, everything else becomes white
+    isolated = np.where(mask[:, :, None], img_np, white_bg)
+
+    cropped = isolated[top:bottom + 1, left:right + 1]
+    return Image.fromarray(cropped.astype("uint8"))
 
 
 def get_embedding(model, preprocess, device, image: Image.Image) -> np.ndarray:
@@ -87,6 +159,11 @@ def find_images(product_path: str):
 
 def main():
     model, preprocess, device = load_model()
+
+    processor, seg_model = (None, None)
+    if USE_GARMENT_CROP:
+        processor, seg_model = load_parsing_model(device)
+        print(f"Garment isolation ON - keeping only: '{GARMENT_CLASS}'\n")
 
     embeddings = []
     metadata = []
@@ -120,6 +197,9 @@ def main():
                     if USE_BACKGROUND_REMOVAL:
                         img = remove_background(img)
 
+                    if USE_GARMENT_CROP:
+                        img = isolate_garment(img, processor, seg_model, device, GARMENT_CLASS)
+
                     emb = get_embedding(model, preprocess, device, img)
 
                     embeddings.append(emb)
@@ -128,6 +208,7 @@ def main():
                         "category": category,
                         "angle": os.path.splitext(os.path.basename(img_path))[0],
                         "image_path": img_path,
+                        "garment_class": GARMENT_CLASS if USE_GARMENT_CROP else None,
                     })
                     print(f"  Indexed: {img_path}")
 
