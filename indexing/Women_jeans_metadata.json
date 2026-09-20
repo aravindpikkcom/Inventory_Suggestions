@@ -1,0 +1,744 @@
+[
+  {
+    "id": "001_Women Wide-Leg High-Rise Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "001_Women Wide-Leg High-Rise Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "002_Women High Rise Washed Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/002_Women High Rise Washed Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "002_Women High Rise Washed Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/002_Women High Rise Washed Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "003_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/003_Women Washed Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "003_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/003_Women Washed Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "004_Women Solid High Rise Mom Fit Crop Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/004_Women Solid High Rise Mom Fit Crop Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "004_Women Solid High Rise Mom Fit Crop Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/004_Women Solid High Rise Mom Fit Crop Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "005_Women Stonewash Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/005_Women Stonewash Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "005_Women Stonewash Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/005_Women Stonewash Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "006_Women Solid High Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/006_Women Solid High Rise Kick Flare Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "006_Women Solid High Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/006_Women Solid High Rise Kick Flare Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "007_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "007_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "008_Women Clean Look Full Length Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/008_Women Clean Look Full Length Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "008_Women Clean Look Full Length Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/008_Women Clean Look Full Length Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "009_Women High-Rise Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/009_Women High-Rise Cargo Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "009_Women High-Rise Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/009_Women High-Rise Cargo Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "010_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/010_Women Washed Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "010_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/010_Women Washed Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "011_Women High-Rise Wide-Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/011_Women High-Rise Wide-Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "011_Women High-Rise Wide-Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/011_Women High-Rise Wide-Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "012_Women Wide-Leg High-Rise Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/012_Women Wide-Leg High-Rise Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "012_Women Wide-Leg High-Rise Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/012_Women Wide-Leg High-Rise Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "013_Women Dark Washed Slim Straight Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/013_Women Dark Washed Slim Straight Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "013_Women Dark Washed Slim Straight Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/013_Women Dark Washed Slim Straight Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "014_Women High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/014_Women High Rise Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "014_Women High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/014_Women High Rise Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "015_Women High-Rise Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/015_Women High-Rise Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "015_Women High-Rise Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/015_Women High-Rise Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "016_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/016_Women Solid Cargo Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "016_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/016_Women Solid Cargo Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_3.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_4.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_5.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_6.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_7.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "017_Women Washed Denim Jeans",
+    "category": "jeans",
+    "angle": "image_8",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans/image_8.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "018_Women Solid Flexi Jeggings",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "018_Women Solid Flexi Jeggings",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "018_Women Solid Flexi Jeggings",
+    "category": "jeans",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings/image_3.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "018_Women Solid Flexi Jeggings",
+    "category": "jeans",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings/image_4.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "018_Women Solid Flexi Jeggings",
+    "category": "jeans",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings/image_5.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "018_Women Solid Flexi Jeggings",
+    "category": "jeans",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings/image_6.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "019_Women Solid High Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/019_Women Solid High Rise Kick Flare Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "019_Women Solid High Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/019_Women Solid High Rise Kick Flare Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "020_Women High-Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/020_Women High-Rise Kick Flare Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "020_Women High-Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/020_Women High-Rise Kick Flare Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "021_Women Washed Skinny Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/021_Women Washed Skinny Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "021_Women Washed Skinny Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/021_Women Washed Skinny Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "022_Women Washed Denim Cargos",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/022_Women Washed Denim Cargos/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "022_Women Washed Denim Cargos",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/022_Women Washed Denim Cargos/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "023_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/023_Women Washed Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "023_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/023_Women Washed Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "024_Women Stonewash Mid Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/024_Women Stonewash Mid Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "024_Women Stonewash Mid Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/024_Women Stonewash Mid Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "025_Women Washed High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/025_Women Washed High Rise Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "025_Women Washed High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/025_Women Washed High Rise Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "026_Women High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/026_Women High Rise Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "026_Women High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/026_Women High Rise Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "027_Women Light Wash Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/027_Women Light Wash Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "027_Women Light Wash Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/027_Women Light Wash Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "028_Women Solid High Rise Straight Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/028_Women Solid High Rise Straight Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "028_Women Solid High Rise Straight Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/028_Women Solid High Rise Straight Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "029_Women High Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/029_Women High Rise Kick Flare Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "029_Women High Rise Kick Flare Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/029_Women High Rise Kick Flare Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "030_Women Solid Jeggings",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/030_Women Solid Jeggings/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "030_Women Solid Jeggings",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/030_Women Solid Jeggings/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "031_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/031_Women Solid Cargo Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "031_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/031_Women Solid Cargo Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "032_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/032_Women Solid Cargo Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "032_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/032_Women Solid Cargo Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "033_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/033_Women Washed Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "033_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/033_Women Washed Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "034_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/034_Women Washed Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "034_Women Washed Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/034_Women Washed Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "035_Women Washed Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/035_Women Washed Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "035_Women Washed Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/035_Women Washed Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "036_Women Washed High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/036_Women Washed High Rise Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "036_Women Washed High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/036_Women Washed High Rise Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "037_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/037_Women Solid Cargo Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "037_Women Solid Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/037_Women Solid Cargo Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "038_Women Washed Slim Straight Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/038_Women Washed Slim Straight Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "038_Women Washed Slim Straight Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/038_Women Washed Slim Straight Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "039_Women Dark Wash Clean Look Mid Rise Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/039_Women Dark Wash Clean Look Mid Rise Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "039_Women Dark Wash Clean Look Mid Rise Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/039_Women Dark Wash Clean Look Mid Rise Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "040_Women High Rise Straight Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/040_Women High Rise Straight Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "040_Women High Rise Straight Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/040_Women High Rise Straight Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "041_Women Whiskered Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/041_Women Whiskered Wide Leg Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "041_Women Whiskered Wide Leg Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/041_Women Whiskered Wide Leg Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "042_Women Light Wash Clean Look Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/042_Women Light Wash Clean Look Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "042_Women Light Wash Clean Look Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/042_Women Light Wash Clean Look Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "043_Women High-Rise Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/043_Women High-Rise Cargo Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "043_Women High-Rise Cargo Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/043_Women High-Rise Cargo Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "044_Women Washed High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/044_Women Washed High Rise Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "044_Women Washed High Rise Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/044_Women Washed High Rise Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "045_Women Solid Ankle Grazer Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/045_Women Solid Ankle Grazer Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "045_Women Solid Ankle Grazer Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/045_Women Solid Ankle Grazer Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "046_Women Solid Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/046_Women Solid Mom Fit Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "046_Women Solid Mom Fit Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/046_Women Solid Mom Fit Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "047_Women Acid-Wash Flared Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/047_Women Acid-Wash Flared Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "047_Women Acid-Wash Flared Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/047_Women Acid-Wash Flared Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "048_Women Solid Slim Straight Jeans",
+    "category": "jeans",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/048_Women Solid Slim Straight Jeans/image_1.jpg",
+    "garment_class": "Pants"
+  },
+  {
+    "id": "048_Women Solid Slim Straight Jeans",
+    "category": "jeans",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/048_Women Solid Slim Straight Jeans/image_2.jpg",
+    "garment_class": "Pants"
+  }
+]

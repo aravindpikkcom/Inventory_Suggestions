@@ -1,0 +1,821 @@
+[
+  {
+    "id": "001_Women Floral Print Blazer",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "001_Women Floral Print Blazer",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "001_Women Floral Print Blazer",
+    "category": "urban_wear",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "001_Women Floral Print Blazer",
+    "category": "urban_wear",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "001_Women Floral Print Blazer",
+    "category": "urban_wear",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "002_Women Printed Pleated Tunic",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/002_Women Printed Pleated Tunic/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "002_Women Printed Pleated Tunic",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/002_Women Printed Pleated Tunic/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "003_URB_N Women Solid Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "003_URB_N Women Solid Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "004_Women Embroidered Shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/004_Women Embroidered Shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "004_Women Embroidered Shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/004_Women Embroidered Shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "005_Women Checked Drop-Shoulder Shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/005_Women Checked Drop-Shoulder Shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "005_Women Checked Drop-Shoulder Shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/005_Women Checked Drop-Shoulder Shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/006_URB_N Women Minions T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/006_URB_N Women Minions T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/006_URB_N Women Minions T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/006_URB_N Women Minions T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/006_URB_N Women Minions T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_Women Embroidered Raglan Sleeves Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/007_Women Embroidered Raglan Sleeves Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_Women Embroidered Raglan Sleeves Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/007_Women Embroidered Raglan Sleeves Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "008_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/008_URB_N Women Minions T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "008_URB_N Women Minions T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/008_URB_N Women Minions T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_URB_N Women Oversized Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/009_URB_N Women Oversized Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_URB_N Women Oversized Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/009_URB_N Women Oversized Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "010_Women Printed Round Neck T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/010_Women Printed Round Neck T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "010_Women Printed Round Neck T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/010_Women Printed Round Neck T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "011_Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/011_Women Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "011_Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/011_Women Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Women Graphic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/012_URB_N Women Graphic Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Women Graphic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/012_URB_N Women Graphic Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "013_Women Textured Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/013_Women Textured Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "013_Women Textured Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/013_Women Textured Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "014_Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/014_Women Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "014_Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/014_Women Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "015_Women Floral Print T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/015_Women Floral Print T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "015_Women Floral Print T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/015_Women Floral Print T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "016_Women Pintuck T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/016_Women Pintuck T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "016_Women Pintuck T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/016_Women Pintuck T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "017_Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/017_Women Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "017_Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/017_Women Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "018_Women Solid Short Sleeves T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/018_Women Solid Short Sleeves T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "018_Women Solid Short Sleeves T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/018_Women Solid Short Sleeves T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/019_URB_N Women Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/019_URB_N Women Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Women Embroidered T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/020_Women Embroidered T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Women Embroidered T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/020_Women Embroidered T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_Women Ruffled V-neck Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/021_Women Ruffled V-neck Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_Women Ruffled V-neck Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/021_Women Ruffled V-neck Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Women Printed Sports T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/022_Women Printed Sports T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Women Printed Sports T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/022_Women Printed Sports T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "023_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/023_Women Solid T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "023_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/023_Women Solid T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_Women Striped Drop Shoulder T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/024_Women Striped Drop Shoulder T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_Women Striped Drop Shoulder T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/024_Women Striped Drop Shoulder T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "025_Women Graphic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/025_Women Graphic Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "025_Women Graphic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/025_Women Graphic Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_URB_N Women Boxy Fit Striped T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/026_URB_N Women Boxy Fit Striped T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_URB_N Women Boxy Fit Striped T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/026_URB_N Women Boxy Fit Striped T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "027_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/027_Women Solid T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "027_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/027_Women Solid T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Women Striped Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/028_Women Striped Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Women Striped Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/028_Women Striped Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_URB_N Women Typographic Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_8",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt/image_8.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Women Textured Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/030_Women Textured Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Women Textured Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/030_Women Textured Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "031_Women Solid Oversized Boxy T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/031_Women Solid Oversized Boxy T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "031_Women Solid Oversized Boxy T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/031_Women Solid Oversized Boxy T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "032_Women Ribbed Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/032_Women Ribbed Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "032_Women Ribbed Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/032_Women Ribbed Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "033_Women Striped Shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/033_Women Striped Shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "033_Women Striped Shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/033_Women Striped Shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "034_Women Printed Boxy Fit Sports T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/034_Women Printed Boxy Fit Sports T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "034_Women Printed Boxy Fit Sports T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/034_Women Printed Boxy Fit Sports T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "035_Women Striped T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/035_Women Striped T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "035_Women Striped T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/035_Women Striped T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Women Printed Shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/036_Women Printed Shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Women Printed Shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/036_Women Printed Shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Women Printed Three-Quarter Sleeve Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Women Printed Three-Quarter Sleeve Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Women Printed Three-Quarter Sleeve Top",
+    "category": "urban_wear",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Women Printed Three-Quarter Sleeve Top",
+    "category": "urban_wear",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Women Printed Three-Quarter Sleeve Top",
+    "category": "urban_wear",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Women Printed Three-Quarter Sleeve Top",
+    "category": "urban_wear",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_Women Solid Cowl Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/038_Women Solid Cowl Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_Women Solid Cowl Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/038_Women Solid Cowl Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "039_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/039_Women Solid T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "039_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/039_Women Solid T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "040_URB_N Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/040_URB_N Women Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "040_URB_N Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/040_URB_N Women Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "041_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/041_Women Solid T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "041_Women Solid T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/041_Women Solid T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "042_Women Ribbed Drop-Shoulder T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/042_Women Ribbed Drop-Shoulder T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "042_Women Ribbed Drop-Shoulder T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/042_Women Ribbed Drop-Shoulder T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "043_Women Solid Waistcoat Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/043_Women Solid Waistcoat Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "043_Women Solid Waistcoat Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/043_Women Solid Waistcoat Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "044_Women Cotton Printed Round Neck T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/044_Women Cotton Printed Round Neck T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "044_Women Cotton Printed Round Neck T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/044_Women Cotton Printed Round Neck T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "045_URB_N Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/045_URB_N Women Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "045_URB_N Women Printed T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/045_URB_N Women Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Women Printed Cotton T-shirt",
+    "category": "urban_wear",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "047_Women Crochet Panel Top",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/047_Women Crochet Panel Top/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "047_Women Crochet Panel Top",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/047_Women Crochet Panel Top/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "048_URB_N Women Printed Oversized T-shirt",
+    "category": "urban_wear",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/048_URB_N Women Printed Oversized T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "048_URB_N Women Printed Oversized T-shirt",
+    "category": "urban_wear",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/048_URB_N Women Printed Oversized T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  }
+]

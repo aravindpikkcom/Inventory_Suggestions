@@ -1,0 +1,866 @@
+{
+  "001_Women Floral Print Blazer": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "002_Women Printed Pleated Tunic": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/002_Women Printed Pleated Tunic",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "003_URB_N Women Solid Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "004_Women Embroidered Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/004_Women Embroidered Shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "005_Women Checked Drop-Shoulder Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/005_Women Checked Drop-Shoulder Shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "006_URB_N Women Minions T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/006_URB_N Women Minions T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "007_Women Embroidered Raglan Sleeves Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/007_Women Embroidered Raglan Sleeves Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "008_URB_N Women Minions T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/008_URB_N Women Minions T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "009_URB_N Women Oversized Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/009_URB_N Women Oversized Printed T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "010_Women Printed Round Neck T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/010_Women Printed Round Neck T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "011_Women Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/011_Women Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "012_URB_N Women Graphic Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/012_URB_N Women Graphic Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "013_Women Textured Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/013_Women Textured Top",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "014_Women Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/014_Women Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "015_Women Floral Print T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/015_Women Floral Print T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "016_Women Pintuck T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/016_Women Pintuck T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "017_Women Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/017_Women Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "018_Women Solid Short Sleeves T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/018_Women Solid Short Sleeves T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "019_URB_N Women Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/019_URB_N Women Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "020_Women Embroidered T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/020_Women Embroidered T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "021_Women Ruffled V-neck Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/021_Women Ruffled V-neck Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "022_Women Printed Sports T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/022_Women Printed Sports T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "023_Women Solid T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/023_Women Solid T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "024_Women Striped Drop Shoulder T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/024_Women Striped Drop Shoulder T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "025_Women Graphic Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/025_Women Graphic Printed T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "026_URB_N Women Boxy Fit Striped T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/026_URB_N Women Boxy Fit Striped T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "027_Women Solid T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/027_Women Solid T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "028_Women Striped Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/028_Women Striped Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "029_URB_N Women Typographic Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/029_URB_N Women Typographic Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "030_Women Textured Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/030_Women Textured Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "031_Women Solid Oversized Boxy T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/031_Women Solid Oversized Boxy T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "032_Women Ribbed Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/032_Women Ribbed Top",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "033_Women Striped Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/033_Women Striped Shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "034_Women Printed Boxy Fit Sports T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/034_Women Printed Boxy Fit Sports T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "035_Women Striped T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/035_Women Striped T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "036_Women Printed Shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/036_Women Printed Shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "037_Women Printed Three-Quarter Sleeve Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/037_Women Printed Three-Quarter Sleeve Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "038_Women Solid Cowl Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/038_Women Solid Cowl Top",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "039_Women Solid T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/039_Women Solid T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "040_URB_N Women Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/040_URB_N Women Printed T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "041_Women Solid T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/041_Women Solid T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "042_Women Ribbed Drop-Shoulder T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/042_Women Ribbed Drop-Shoulder T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "043_Women Solid Waistcoat Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/043_Women Solid Waistcoat Top",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "044_Women Cotton Printed Round Neck T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/044_Women Cotton Printed Round Neck T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "045_URB_N Women Printed T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/045_URB_N Women Printed T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "046_Women Printed Cotton T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/046_Women Printed Cotton T-shirt",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "047_Women Crochet Panel Top": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/047_Women Crochet Panel Top",
+    "matches": [
+      {
+        "id": "001_Women Wide-Leg High-Rise Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans"
+      }
+    ]
+  },
+  "048_URB_N Women Printed Oversized T-shirt": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/048_URB_N Women Printed Oversized T-shirt",
+    "matches": [
+      {
+        "id": "007_Women Washed Wide Leg Jeans",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans"
+      }
+    ]
+  },
+  "001_Women Wide-Leg High-Rise Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/001_Women Wide-Leg High-Rise Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "002_Women High Rise Washed Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/002_Women High Rise Washed Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "003_Women Washed Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/003_Women Washed Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "004_Women Solid High Rise Mom Fit Crop Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/004_Women Solid High Rise Mom Fit Crop Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "005_Women Stonewash Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/005_Women Stonewash Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "006_Women Solid High Rise Kick Flare Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/006_Women Solid High Rise Kick Flare Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "007_Women Washed Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/007_Women Washed Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "001_Women Floral Print Blazer",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer"
+      }
+    ]
+  },
+  "008_Women Clean Look Full Length Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/008_Women Clean Look Full Length Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "009_Women High-Rise Cargo Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/009_Women High-Rise Cargo Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "010_Women Washed Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/010_Women Washed Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "011_Women High-Rise Wide-Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/011_Women High-Rise Wide-Leg Jeans",
+    "matches": [
+      {
+        "id": "001_Women Floral Print Blazer",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer"
+      }
+    ]
+  },
+  "012_Women Wide-Leg High-Rise Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/012_Women Wide-Leg High-Rise Jeans",
+    "matches": [
+      {
+        "id": "001_Women Floral Print Blazer",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer"
+      }
+    ]
+  },
+  "013_Women Dark Washed Slim Straight Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/013_Women Dark Washed Slim Straight Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "014_Women High Rise Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/014_Women High Rise Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "015_Women High-Rise Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/015_Women High-Rise Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "016_Women Solid Cargo Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/016_Women Solid Cargo Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "017_Women Washed Denim Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/017_Women Washed Denim Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "018_Women Solid Flexi Jeggings": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/018_Women Solid Flexi Jeggings",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "019_Women Solid High Rise Kick Flare Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/019_Women Solid High Rise Kick Flare Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "020_Women High-Rise Kick Flare Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/020_Women High-Rise Kick Flare Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "021_Women Washed Skinny Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/021_Women Washed Skinny Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "022_Women Washed Denim Cargos": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/022_Women Washed Denim Cargos",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "023_Women Washed Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/023_Women Washed Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "024_Women Stonewash Mid Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/024_Women Stonewash Mid Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "025_Women Washed High Rise Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/025_Women Washed High Rise Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "026_Women High Rise Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/026_Women High Rise Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "027_Women Light Wash Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/027_Women Light Wash Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "028_Women Solid High Rise Straight Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/028_Women Solid High Rise Straight Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "029_Women High Rise Kick Flare Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/029_Women High Rise Kick Flare Jeans",
+    "matches": [
+      {
+        "id": "001_Women Floral Print Blazer",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer"
+      }
+    ]
+  },
+  "030_Women Solid Jeggings": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/030_Women Solid Jeggings",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "031_Women Solid Cargo Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/031_Women Solid Cargo Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "032_Women Solid Cargo Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/032_Women Solid Cargo Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "033_Women Washed Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/033_Women Washed Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "034_Women Washed Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/034_Women Washed Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "035_Women Washed Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/035_Women Washed Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "036_Women Washed High Rise Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/036_Women Washed High Rise Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "037_Women Solid Cargo Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/037_Women Solid Cargo Jeans",
+    "matches": [
+      {
+        "id": "001_Women Floral Print Blazer",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer"
+      }
+    ]
+  },
+  "038_Women Washed Slim Straight Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/038_Women Washed Slim Straight Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "039_Women Dark Wash Clean Look Mid Rise Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/039_Women Dark Wash Clean Look Mid Rise Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "040_Women High Rise Straight Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/040_Women High Rise Straight Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "041_Women Whiskered Wide Leg Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/041_Women Whiskered Wide Leg Jeans",
+    "matches": [
+      {
+        "id": "001_Women Floral Print Blazer",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/001_Women Floral Print Blazer"
+      }
+    ]
+  },
+  "042_Women Light Wash Clean Look Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/042_Women Light Wash Clean Look Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "043_Women High-Rise Cargo Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/043_Women High-Rise Cargo Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "044_Women Washed High Rise Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/044_Women Washed High Rise Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "045_Women Solid Ankle Grazer Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/045_Women Solid Ankle Grazer Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "046_Women Solid Mom Fit Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/046_Women Solid Mom Fit Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "047_Women Acid-Wash Flared Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/047_Women Acid-Wash Flared Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  },
+  "048_Women Solid Slim Straight Jeans": {
+    "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/Women_Bottom/jeans/048_Women Solid Slim Straight Jeans",
+    "matches": [
+      {
+        "id": "003_URB_N Women Solid Top",
+        "location": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/women_western_top/urban_wear/003_URB_N Women Solid Top"
+      }
+    ]
+  }
+}

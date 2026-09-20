@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "001_Men Regular Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/001_Men Regular Fit Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "001_Men Regular Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/001_Men Regular Fit Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "002_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/002_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "002_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/002_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "002_URB_N Men Typographic Print T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/002_URB_N Men Typographic Print T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "002_URB_N Men Typographic Print T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/002_URB_N Men Typographic Print T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "003_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/003_Men Colourblock Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "003_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/003_Men Colourblock Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "003_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/003_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "003_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/003_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "004_Men Striped Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/004_Men Striped Slim Fit Polo/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "004_Men Striped Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/004_Men Striped Slim Fit Polo/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "004_URB_N Men Shoulder Stripe T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/004_URB_N Men Shoulder Stripe T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "004_URB_N Men Shoulder Stripe T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/004_URB_N Men Shoulder Stripe T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "005_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/005_Men Colourblock Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "005_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/005_Men Colourblock Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "005_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/005_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "005_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/005_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/006_Men Colourblock Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/006_Men Colourblock Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/006_Men Solid Regular Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "006_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/006_Men Solid Regular Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Colourblocked Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "007_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/007_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "008_Men Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/008_Men Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "008_Men Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/008_Men Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "008_Men Striped Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/008_Men Striped Slim Fit Polo/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "008_Men Striped Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/008_Men Striped Slim Fit Polo/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_Men Slim Fit Solid Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "009_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/009_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "010_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/010_Men Solid Slim Fit Polo/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "010_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/010_Men Solid Slim Fit Polo/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "010_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/010_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "010_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/010_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "011_Men Premium Soft Touch T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/011_Men Premium Soft Touch T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "011_Men Premium Soft Touch T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/011_Men Premium Soft Touch T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "011_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/011_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "011_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/011_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_Men Solid Slim Fit Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_Men Solid Slim Fit Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_Men Solid Slim Fit Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_Men Solid Slim Fit Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "012_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/012_URB_N Men Textured T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "013_Men Slim Fit Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/013_Men Slim Fit Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "013_Men Slim Fit Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/013_Men Slim Fit Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "013_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/013_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "013_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/013_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "014_Men Graphic Print T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/014_Men Graphic Print T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "014_Men Graphic Print T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/014_Men Graphic Print T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "014_Men Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/014_Men Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "014_Men Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/014_Men Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "015_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/015_Men Colourblock Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "015_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/015_Men Colourblock Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "015_Men Slim Fit Textured Zipper Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/015_Men Slim Fit Textured Zipper Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "015_Men Slim Fit Textured Zipper Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/015_Men Slim Fit Textured Zipper Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "016_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/016_Men Solid Regular Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "016_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/016_Men Solid Regular Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "016_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/016_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "016_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/016_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "017_Men Textured Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/017_Men Textured Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "017_Men Textured Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/017_Men Textured Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "017_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/017_URB_N Men Striped T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "017_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/017_URB_N Men Striped T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "018_Men NFL Printed Sports T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/018_Men NFL Printed Sports T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "018_Men NFL Printed Sports T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/018_Men NFL Printed Sports T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "018_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/018_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "018_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/018_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_Men Solid Slim Fit Polo/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_Men Solid Slim Fit Polo/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_URB_N Men Printed Regular Fit T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_URB_N Men Printed Regular Fit T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_URB_N Men Printed Regular Fit T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_URB_N Men Printed Regular Fit T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_URB_N Men Printed Regular Fit T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "019_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/019_URB_N Men Printed Regular Fit T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_Men Striped Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_Men Striped Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_Men Striped Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "020_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/020_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_Men Textured Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_Men Textured Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_Men Textured Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_Men Textured Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "021_URB_N Men Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/021_URB_N Men Colourblocked Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Athleisure T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Athleisure T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Athleisure T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Athleisure T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "022_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_8",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/022_Men Slim Fit Solid Polo T-shirt/image_8.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "023_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/023_Men Printed Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "023_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/023_Men Printed Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "023_URB_N Men Oversized Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/023_URB_N Men Oversized Textured T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "023_URB_N Men Oversized Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/023_URB_N Men Oversized Textured T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_Men Solid Slim Fit Polo/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_Men Solid Slim Fit Polo/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_URB_N Men Striped T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_URB_N Men Striped T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_URB_N Men Striped T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_URB_N Men Striped T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "024_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/024_URB_N Men Striped T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "025_Men Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/025_Men Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "025_Men Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/025_Men Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "025_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/025_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "025_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/025_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Polo T-shirt with Contrast Tipping",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Polo T-shirt with Contrast Tipping/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Polo T-shirt with Contrast Tipping",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Polo T-shirt with Contrast Tipping/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "026_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/026_Men Slim Fit Solid Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "027_Men Floral Print Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/027_Men Floral Print Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "027_Men Floral Print Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/027_Men Floral Print Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "027_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/027_Men Solid Slim Fit Polo/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "027_Men Solid Slim Fit Polo",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/027_Men Solid Slim Fit Polo/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_Men Solid Regular Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_8",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_Men Solid Regular Fit Polo T-shirt/image_8.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_URB_N Men Textured T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "028_URB_N Men Textured T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/028_URB_N Men Textured T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/029_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/029_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_Men Striped Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/029_Men Striped Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "029_Men Striped Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/029_Men Striped Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_7",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_Men Printed Polo T-shirt/image_7.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_URB_N Men Printed T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_URB_N Men Printed T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_URB_N Men Printed T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "030_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/030_URB_N Men Printed T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "031_Men Slim Fit Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/031_Men Slim Fit Colourblocked Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "031_Men Slim Fit Colourblocked Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/031_Men Slim Fit Colourblocked Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "031_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/031_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "031_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/031_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "032_Men Striped Knit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/032_Men Striped Knit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "032_Men Striped Knit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/032_Men Striped Knit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "032_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/032_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "032_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/032_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "033_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/033_Men Printed Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "033_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/033_Men Printed Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "033_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/033_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "033_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/033_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "034_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/034_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "034_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/034_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "034_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/034_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "034_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/034_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "035_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/035_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "035_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/035_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "035_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/035_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "035_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/035_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Soft Touch Regular Fit T-Shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Soft Touch Regular Fit T-Shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Soft Touch Regular Fit T-Shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Soft Touch Regular Fit T-Shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Soft Touch Regular Fit T-Shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Soft Touch Regular Fit T-Shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Soft Touch Regular Fit T-Shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Soft Touch Regular Fit T-Shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Soft Touch Regular Fit T-Shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Soft Touch Regular Fit T-Shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Soft Touch Regular Fit T-Shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Soft Touch Regular Fit T-Shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "036_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/036_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/037_Men Printed Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Men Printed Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/037_Men Printed Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Men Slim Fit Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/037_Men Slim Fit Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "037_Men Slim Fit Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/037_Men Slim Fit Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_URB_N Men Printed Regular Fit T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_URB_N Men Printed Regular Fit T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_3",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_URB_N Men Printed Regular Fit T-shirt/image_3.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_4",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_URB_N Men Printed Regular Fit T-shirt/image_4.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_5",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_URB_N Men Printed Regular Fit T-shirt/image_5.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "038_URB_N Men Printed Regular Fit T-shirt",
+    "category": "cotton",
+    "angle": "image_6",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/038_URB_N Men Printed Regular Fit T-shirt/image_6.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "039_Men Side Taped Sports T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/039_Men Side Taped Sports T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "039_Men Side Taped Sports T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/039_Men Side Taped Sports T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "039_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/039_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "039_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/039_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "040_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/040_Men Colourblock Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "040_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/040_Men Colourblock Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "040_Men Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/040_Men Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "040_Men Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/040_Men Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "041_Men Ribbed Knit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/041_Men Ribbed Knit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "041_Men Ribbed Knit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/041_Men Ribbed Knit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "041_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/041_URB_N Men Striped T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "041_URB_N Men Striped T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/041_URB_N Men Striped T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "042_Men Ribbed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/042_Men Ribbed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "042_Men Ribbed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/042_Men Ribbed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "042_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/042_Men Slim Fit Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "042_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/042_Men Slim Fit Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "043_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/043_Men Slim Fit Solid Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "043_Men Slim Fit Solid Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/043_Men Slim Fit Solid Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "043_Men Slim Fit Textured Zipper Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/043_Men Slim Fit Textured Zipper Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "043_Men Slim Fit Textured Zipper Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/043_Men Slim Fit Textured Zipper Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "044_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/044_URB_N Men Printed T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "044_URB_N Men Printed T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/044_URB_N Men Printed T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "044_URB_N Men Striped Oversized Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/044_URB_N Men Striped Oversized Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "044_URB_N Men Striped Oversized Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/044_URB_N Men Striped Oversized Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "045_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/045_Men Colourblock Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "045_Men Colourblock Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/045_Men Colourblock Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "045_Men Premium Soft Touch T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/045_Men Premium Soft Touch T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "045_Men Premium Soft Touch T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/045_Men Premium Soft Touch T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/046_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "046_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/046_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "047_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/047_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "047_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/047_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "047_Men Textured Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/047_Men Textured Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "047_Men Textured Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/047_Men Textured Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "048_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/048_Men Solid Slim Fit Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "048_Men Solid Slim Fit Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/048_Men Solid Slim Fit Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "048_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_1",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/048_Men Striped Polo T-shirt/image_1.jpg",
+    "garment_class": "Upper-clothes"
+  },
+  {
+    "id": "048_Men Striped Polo T-shirt",
+    "category": "cotton",
+    "angle": "image_2",
+    "image_path": "/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/Webscraping/tshirt/cotton/048_Men Striped Polo T-shirt/image_2.jpg",
+    "garment_class": "Upper-clothes"
+  }
+]

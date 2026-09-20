@@ -32,8 +32,8 @@ def get_embedding(model, preprocess, device, image):
 USE_BACKGROUND_REMOVAL = True
 
 # --- now your actual query logic ---
-index = faiss.read_index("/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt_inventory.index")
-metadata = json.load(open("/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/shirt_metadata.json"))
+index = faiss.read_index("/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/saree_inventory.index")
+metadata = json.load(open("/Users/aravindg/PycharmProjects/ReactJS/CameraAutomation/indexing/saree_metadata.json"))
 model, preprocess, device = load_model()
 
 query_img = Image.open("img_1.png").convert("RGB")
