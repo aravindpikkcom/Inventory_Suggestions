@@ -12,9 +12,8 @@
     >
 
     <title>
-        Retail Intelligence
+        Retail AI Assistant
     </title>
-
 
     <script
         src="https://cdn.jsdelivr.net/npm/chart.js">
@@ -22,6 +21,11 @@
 
 
     <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
 
         body {
 
@@ -32,213 +36,506 @@
                 Helvetica,
                 sans-serif;
 
-            background: #f5f6f8;
+            background:
+                #f7f7f8;
 
-            color: #222;
-
-        }
-
-
-        .container {
-
-            width: 90%;
-
-            max-width: 1100px;
-
-            margin: 50px auto;
+            color:
+                #222;
 
         }
 
 
-        .title {
+        .app {
 
-            font-size: 32px;
+            max-width:
+                1000px;
 
-            font-weight: bold;
+            margin:
+                0 auto;
 
-            margin-bottom: 5px;
+            min-height:
+                100vh;
 
-        }
+            display:
+                flex;
 
-
-        .subtitle {
-
-            color: #777;
-
-            margin-bottom: 30px;
-
-        }
-
-
-        .search-container {
-
-            display: flex;
-
-            gap: 10px;
-
-            background: white;
-
-            padding: 18px;
-
-            border-radius: 12px;
-
-            box-shadow:
-                0 4px 15px
-                rgba(0,0,0,0.05);
+            flex-direction:
+                column;
 
         }
 
 
-        #searchInput {
-
-            flex: 1;
-
-            padding: 15px;
-
-            font-size: 16px;
-
-            border:
-
-                1px solid #ddd;
-
-            border-radius: 8px;
-
-            outline: none;
-
-        }
-
-
-        #searchInput:focus {
-
-            border-color: #333;
-
-        }
-
-
-        #searchButton {
+        .header {
 
             padding:
+                24px 20px;
 
-                14px 30px;
+            border-bottom:
+                1px solid #e5e5e5;
 
-            background: #111;
-
-            color: white;
-
-            border: none;
-
-            border-radius: 8px;
-
-            cursor: pointer;
-
-            font-size: 16px;
+            background:
+                white;
 
         }
 
 
-        #searchButton:hover {
+        .header-title {
 
-            background: #333;
+            font-size:
+                22px;
 
-        }
-
-
-        #searchButton:disabled {
-
-            opacity: 0.5;
+            font-weight:
+                700;
 
         }
 
 
-        .card {
+        .header-subtitle {
 
-            background: white;
+            color:
+                #777;
 
-            margin-top: 25px;
+            margin-top:
+                5px;
 
-            padding: 25px;
-
-            border-radius: 12px;
-
-            box-shadow:
-
-                0 4px 15px
-                rgba(0,0,0,0.05);
+            font-size:
+                14px;
 
         }
 
 
-        .hidden {
+        #messages {
 
-            display: none;
+            flex:
+                1;
+
+            padding:
+                30px 20px 140px;
 
         }
 
 
-        #answer {
+        .message {
 
-            font-size: 20px;
+            display:
+                flex;
 
-            font-weight: 600;
+            margin-bottom:
+                25px;
 
-            margin-top: 10px;
+        }
+
+
+        .message.user {
+
+            justify-content:
+                flex-end;
+
+        }
+
+
+        .message.assistant {
+
+            justify-content:
+                flex-start;
+
+        }
+
+
+        .bubble {
+
+            max-width:
+                78%;
+
+            padding:
+                14px 17px;
+
+            border-radius:
+                18px;
+
+            line-height:
+                1.5;
+
+            font-size:
+                15px;
+
+        }
+
+
+        .user .bubble {
+
+            background:
+                #222;
+
+            color:
+                white;
+
+            border-bottom-right-radius:
+                5px;
+
+        }
+
+
+        .assistant .bubble {
+
+            background:
+                white;
+
+            border:
+                1px solid #e5e5e5;
+
+            border-bottom-left-radius:
+                5px;
+
+        }
+
+
+        .assistant-label {
+
+            font-size:
+                12px;
+
+            color:
+                #777;
+
+            margin-bottom:
+                5px;
+
+        }
+
+
+        .report-card {
+
+            background:
+                white;
+
+            border:
+                1px solid #e7e7e7;
+
+            border-radius:
+                14px;
+
+            padding:
+                20px;
+
+            margin:
+                15px 0 30px;
+
+        }
+
+
+        .report-title {
+
+            font-size:
+                18px;
+
+            font-weight:
+                600;
+
+            margin-bottom:
+                20px;
+
+        }
+
+
+        .chart-wrapper {
+
+            width:
+                100%;
+
+            max-height:
+                400px;
+
+            margin-bottom:
+                25px;
 
         }
 
 
         table {
 
-            width: 100%;
+            width:
+                100%;
 
-            border-collapse: collapse;
+            border-collapse:
+                collapse;
 
-            margin-top: 15px;
+            margin-top:
+                15px;
+
+            font-size:
+                14px;
 
         }
 
 
         th {
 
-            background: #f5f5f5;
+            background:
+                #f7f7f7;
 
-            text-align: left;
+            text-align:
+                left;
 
-            padding: 12px;
+            padding:
+                11px;
 
         }
 
 
         td {
 
-            padding: 12px;
+            padding:
+                11px;
 
             border-bottom:
-
                 1px solid #eee;
 
         }
 
 
-        .loading {
+        .sql-details {
 
-            margin-top: 20px;
+            margin-top:
+                20px;
 
-            color: #555;
+        }
+
+
+        .sql-details summary {
+
+            cursor:
+                pointer;
+
+            color:
+                #666;
+
+        }
+
+
+        .sql-box {
+
+            margin-top:
+                10px;
+
+            padding:
+                12px;
+
+            background:
+                #f5f5f5;
+
+            border-radius:
+                8px;
+
+            font-family:
+                monospace;
+
+            white-space:
+                pre-wrap;
+
+            overflow-x:
+                auto;
+
+        }
+
+
+        .typing {
+
+            color:
+                #777;
+
+            font-size:
+                14px;
+
+            margin:
+                5px 0 20px;
+
+        }
+
+
+        .input-area {
+
+            position:
+                fixed;
+
+            bottom:
+                0;
+
+            left:
+                0;
+
+            right:
+                0;
+
+            background:
+                linear-gradient(
+                    transparent,
+                    #f7f7f8 30%
+                );
+
+            padding:
+                35px 20px 25px;
+
+        }
+
+
+        .input-container {
+
+            max-width:
+                960px;
+
+            margin:
+                auto;
+
+            background:
+                white;
+
+            border:
+                1px solid #ddd;
+
+            border-radius:
+                22px;
+
+            display:
+                flex;
+
+            align-items:
+                flex-end;
+
+            padding:
+                10px 10px 10px 16px;
+
+            box-shadow:
+                0 3px 14px
+                rgba(0,0,0,0.08);
+
+        }
+
+
+        #messageInput {
+
+            flex:
+                1;
+
+            border:
+                none;
+
+            outline:
+                none;
+
+            resize:
+                none;
+
+            font-family:
+                inherit;
+
+            font-size:
+                16px;
+
+            min-height:
+                26px;
+
+            max-height:
+                140px;
+
+            padding:
+                7px 5px;
+
+        }
+
+
+        #sendButton {
+
+            width:
+                42px;
+
+            height:
+                42px;
+
+            border-radius:
+                50%;
+
+            border:
+                none;
+
+            background:
+                #111;
+
+            color:
+                white;
+
+            font-size:
+                21px;
+
+            cursor:
+                pointer;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                center;
+
+        }
+
+
+        #sendButton:hover {
+
+            background:
+                #333;
+
+        }
+
+
+        #sendButton:disabled {
+
+            opacity:
+                0.5;
+
+            cursor:
+                default;
 
         }
 
 
         .error {
 
-            color: red;
+            color:
+                #b00020;
 
-            margin-top: 15px;
+            margin:
+                10px 0;
 
         }
 
 
-    </style>
+        @media (
+            max-width: 600px
+        ) {
 
+            .bubble {
+
+                max-width:
+                    90%;
+
+            }
+
+            #messages {
+
+                padding-left:
+                    12px;
+
+                padding-right:
+                    12px;
+
+            }
+
+        }
+
+    </style>
 
 </head>
 
@@ -246,142 +543,81 @@
 <body>
 
 
-<div class="container">
+<div class="app">
 
 
-    <div class="title">
+    <div class="header">
 
-        Retail Intelligence
+        <div class="header-title">
+
+            Retail AI Assistant
+
+        </div>
+
+        <div class="header-subtitle">
+
+            Ask about sales, products, stores and performance
+
+        </div>
 
     </div>
 
 
-    <div class="subtitle">
 
-        Ask questions about your sales data
+    <div id="messages">
+
+
+        <div class="message assistant">
+
+            <div>
+
+                <div class="assistant-label">
+
+                    AI Assistant
+
+                </div>
+
+                <div class="bubble">
+
+                    Hi! I'm your retail analytics assistant.
+                    Ask me about sales, products, stores or trends.
+
+                </div>
+
+            </div>
+
+        </div>
+
 
     </div>
 
 
+</div>
 
-    <div class="search-container">
 
 
-        <input
+<div class="input-area">
 
-            id="searchInput"
 
-            type="text"
+    <div class="input-container">
 
-            placeholder="Example: Which saree has highest sales?"
 
-        >
+        <textarea
+            id="messageInput"
+            rows="1"
+            placeholder="Ask anything about your retail data..."
+        ></textarea>
 
 
         <button
-
-            id="searchButton"
-
-            onclick="searchReport()"
-
+            id="sendButton"
+            onclick="sendMessage()"
+            title="Send"
         >
 
-            Search
+            ➤
 
         </button>
-
-
-    </div>
-
-
-
-    <div
-
-        id="loading"
-
-        class="loading hidden"
-
-    >
-
-        Searching...
-
-    </div>
-
-
-
-    <div
-
-        id="error"
-
-        class="error"
-
-    >
-
-    </div>
-
-
-
-    <div
-
-        id="answerCard"
-
-        class="card hidden"
-
-    >
-
-
-        <h2>
-            Answer
-        </h2>
-
-
-        <div id="answer"></div>
-
-
-    </div>
-
-
-
-    <div
-
-        id="chartCard"
-
-        class="card hidden"
-
-    >
-
-
-        <h2 id="chartTitle">
-
-            Report
-
-        </h2>
-
-
-        <canvas id="salesChart"></canvas>
-
-
-    </div>
-
-
-
-    <div
-
-        id="tableCard"
-
-        class="card hidden"
-
-    >
-
-
-        <h2>
-
-            Report Data
-
-        </h2>
-
-
-        <div id="tableContainer"></div>
 
 
     </div>
@@ -394,51 +630,34 @@
 <script>
 
 
-let currentChart = null;
+let conversationHistory = [];
+
+
+let chartCounter = 0;
 
 
 
-async function searchReport() {
+async function sendMessage() {
 
 
     const input =
-
         document.getElementById(
-            "searchInput"
+            "messageInput"
         );
-
-
-    const prompt =
-
-        input.value.trim();
 
 
     const button =
-
         document.getElementById(
-            "searchButton"
+            "sendButton"
         );
 
 
-    const loading =
-
-        document.getElementById(
-            "loading"
-        );
-
-
-    const error =
-
-        document.getElementById(
-            "error"
-        );
+    const message =
+        input.value.trim();
 
 
 
-    if (!prompt) {
-
-        error.innerText =
-            "Please enter a question.";
+    if (!message) {
 
         return;
 
@@ -446,15 +665,36 @@ async function searchReport() {
 
 
 
-    error.innerText = "";
-
-
-    loading.classList.remove(
-        "hidden"
+    addUserMessage(
+        message
     );
 
 
+    /*
+     * Send previous history only.
+     * The current message is passed separately.
+     */
+    const historyForRequest =
+        [...conversationHistory];
+
+
+    conversationHistory.push({
+        role: "user",
+        content: message
+    });
+
+
+    input.value = "";
+
+
+    resizeTextarea();
+
+
     button.disabled = true;
+
+
+    const typingId =
+        showTyping();
 
 
 
@@ -462,14 +702,14 @@ async function searchReport() {
 
 
         const response =
-
             await fetch(
 
-                "http://127.0.0.1:8000/search",
+                "http://127.0.0.1:8000/chat",
 
                 {
 
-                    method: "POST",
+                    method:
+                        "POST",
 
                     headers: {
 
@@ -479,10 +719,13 @@ async function searchReport() {
                     },
 
                     body:
-
                         JSON.stringify({
 
-                            prompt: prompt
+                            message:
+                                message,
+
+                            history:
+                                historyForRequest
 
                         })
 
@@ -492,11 +735,23 @@ async function searchReport() {
 
 
 
+        const data =
+            await response.json();
+
+
+
+        removeTyping(
+            typingId
+        );
+
+
+
         if (!response.ok) {
 
             throw new Error(
 
-                "Backend request failed"
+                data.detail ||
+                "Backend request failed."
 
             );
 
@@ -504,33 +759,56 @@ async function searchReport() {
 
 
 
-        const data =
-
-            await response.json();
-
-
-
-        showAnswer(data);
+        addAssistantMessage(
+            data.message
+        );
 
 
-        showTable(data.rows);
+
+        conversationHistory.push({
+
+            role:
+                "assistant",
+
+            content:
+                data.message
+
+        });
 
 
-        showChart(data);
 
+        if (
+            data.type ===
+            "analytics"
+        ) {
+
+
+            addReport(
+                data
+            );
+
+
+        }
 
 
     }
 
-    catch (err) {
+    catch (error) {
 
 
-        console.error(err);
+        removeTyping(
+            typingId
+        );
 
 
-        error.innerText =
+        addAssistantMessage(
 
-            "Unable to connect to backend.";
+            "I couldn't process that request. " +
+            error.message,
+
+            true
+
+        );
 
 
     }
@@ -538,12 +816,11 @@ async function searchReport() {
     finally {
 
 
-        loading.classList.add(
-            "hidden"
-        );
+        button.disabled =
+            false;
 
 
-        button.disabled = false;
+        input.focus();
 
 
     }
@@ -553,194 +830,555 @@ async function searchReport() {
 
 
 
-function showAnswer(data) {
+function addUserMessage(
+    text
+) {
 
 
-    const answerCard =
-
+    const messages =
         document.getElementById(
-            "answerCard"
+            "messages"
         );
 
 
-    document.getElementById(
-        "answer"
-    ).innerText =
-        data.answer;
+    const wrapper =
+        document.createElement(
+            "div"
+        );
 
 
-    answerCard.classList.remove(
-        "hidden"
+    wrapper.className =
+        "message user";
+
+
+    const bubble =
+        document.createElement(
+            "div"
+        );
+
+
+    bubble.className =
+        "bubble";
+
+
+    bubble.textContent =
+        text;
+
+
+    wrapper.appendChild(
+        bubble
     );
 
 
+    messages.appendChild(
+        wrapper
+    );
+
+
+    scrollBottom();
+
+
 }
 
 
 
-function showTable(rows) {
+function addAssistantMessage(
+    text,
+    isError = false
+) {
+
+
+    const messages =
+        document.getElementById(
+            "messages"
+        );
+
+
+    const wrapper =
+        document.createElement(
+            "div"
+        );
+
+
+    wrapper.className =
+        "message assistant";
+
+
+    const inner =
+        document.createElement(
+            "div"
+        );
+
+
+    const label =
+        document.createElement(
+            "div"
+        );
+
+
+    label.className =
+        "assistant-label";
+
+
+    label.textContent =
+        "AI Assistant";
+
+
+    const bubble =
+        document.createElement(
+            "div"
+        );
+
+
+    bubble.className =
+        "bubble";
+
+
+    if (isError) {
+
+        bubble.classList.add(
+            "error"
+        );
+
+    }
+
+
+    bubble.textContent =
+        text;
+
+
+    inner.appendChild(
+        label
+    );
+
+
+    inner.appendChild(
+        bubble
+    );
+
+
+    wrapper.appendChild(
+        inner
+    );
+
+
+    messages.appendChild(
+        wrapper
+    );
+
+
+    scrollBottom();
+
+
+}
+
+
+
+function showTyping() {
+
+
+    const messages =
+        document.getElementById(
+            "messages"
+        );
+
+
+    const id =
+        "typing-" +
+        Date.now();
+
+
+    const typing =
+        document.createElement(
+            "div"
+        );
+
+
+    typing.id =
+        id;
+
+
+    typing.className =
+        "typing";
+
+
+    typing.textContent =
+        "AI Assistant is thinking...";
+
+
+    messages.appendChild(
+        typing
+    );
+
+
+    scrollBottom();
+
+
+    return id;
+
+
+}
+
+
+
+function removeTyping(
+    id
+) {
+
+
+    const element =
+        document.getElementById(
+            id
+        );
+
+
+    if (element) {
+
+        element.remove();
+
+    }
+
+
+}
+
+
+
+function addReport(
+    data
+) {
+
+
+    const messages =
+        document.getElementById(
+            "messages"
+        );
 
 
     const card =
-
-        document.getElementById(
-            "tableCard"
+        document.createElement(
+            "div"
         );
 
 
-    const container =
+    card.className =
+        "report-card";
 
-        document.getElementById(
-            "tableContainer"
+
+
+    const title =
+        document.createElement(
+            "div"
         );
 
 
+    title.className =
+        "report-title";
 
-    if (!rows || rows.length === 0) {
+
+    title.textContent =
+        data.title ||
+        "Report";
 
 
-        card.classList.add(
-            "hidden"
+    card.appendChild(
+        title
+    );
+
+
+
+    if (
+        data.chart &&
+        data.rows &&
+        data.rows.length > 0
+    ) {
+
+
+        chartCounter++;
+
+
+        const wrapper =
+            document.createElement(
+                "div"
+            );
+
+
+        wrapper.className =
+            "chart-wrapper";
+
+
+        const canvas =
+            document.createElement(
+                "canvas"
+            );
+
+
+        canvas.id =
+            "chart-" +
+            chartCounter;
+
+
+        wrapper.appendChild(
+            canvas
         );
 
 
-        return;
+        card.appendChild(
+            wrapper
+        );
+
+
+        setTimeout(
+            () => {
+
+                renderChart(
+                    canvas,
+                    data
+                );
+
+            },
+            0
+        );
+
 
     }
 
 
 
+    if (
+        data.rows &&
+        data.rows.length > 0
+    ) {
+
+
+        const table =
+            createTable(
+                data.rows
+            );
+
+
+        card.appendChild(
+            table
+        );
+
+
+    }
+
+
+
+    if (data.sql) {
+
+
+        const details =
+            document.createElement(
+                "details"
+            );
+
+
+        details.className =
+            "sql-details";
+
+
+        const summary =
+            document.createElement(
+                "summary"
+            );
+
+
+        summary.textContent =
+            "View generated SQL";
+
+
+        const sql =
+            document.createElement(
+                "div"
+            );
+
+
+        sql.className =
+            "sql-box";
+
+
+        sql.textContent =
+            data.sql;
+
+
+        details.appendChild(
+            summary
+        );
+
+
+        details.appendChild(
+            sql
+        );
+
+
+        card.appendChild(
+            details
+        );
+
+
+    }
+
+
+
+    messages.appendChild(
+        card
+    );
+
+
+    scrollBottom();
+
+
+}
+
+
+
+function createTable(
+    rows
+) {
+
+
+    const table =
+        document.createElement(
+            "table"
+        );
+
+
     const headers =
-
-        Object.keys(rows[0]);
-
-
-
-    let html =
-
-        "<table>";
+        Object.keys(
+            rows[0]
+        );
 
 
+    const thead =
+        document.createElement(
+            "thead"
+        );
 
-    html +=
 
-        "<thead><tr>";
+    const headerRow =
+        document.createElement(
+            "tr"
+        );
 
 
 
     headers.forEach(
-
         header => {
 
-            html +=
 
-                `<th>${formatHeader(header)}</th>`;
+            const th =
+                document.createElement(
+                    "th"
+                );
+
+
+            th.textContent =
+                formatHeader(
+                    header
+                );
+
+
+            headerRow.appendChild(
+                th
+            );
+
 
         }
+    );
 
+
+    thead.appendChild(
+        headerRow
+    );
+
+
+    table.appendChild(
+        thead
     );
 
 
 
-    html +=
-
-        "</tr></thead>";
-
-
-
-    html +=
-
-        "<tbody>";
+    const tbody =
+        document.createElement(
+            "tbody"
+        );
 
 
 
     rows.forEach(
-
         row => {
 
 
-            html += "<tr>";
+            const tr =
+                document.createElement(
+                    "tr"
+                );
 
 
             headers.forEach(
-
                 header => {
 
 
-                    let value =
-
-                        row[header];
-
-
-
-                    if (
-                        header === "total_sales"
-                    ) {
-
-                        value =
-
-                            "₹" +
-
-                            Number(value)
-                                .toLocaleString(
-                                    "en-IN"
-                                );
-
-                    }
+                    const td =
+                        document.createElement(
+                            "td"
+                        );
 
 
+                    td.textContent =
+                        formatValue(
+                            header,
+                            row[header]
+                        );
 
-                    html +=
 
-                        `<td>${value}</td>`;
+                    tr.appendChild(
+                        td
+                    );
+
 
                 }
-
             );
 
 
-            html += "</tr>";
+            tbody.appendChild(
+                tr
+            );
 
 
         }
-
     );
 
 
-
-    html +=
-
-        "</tbody></table>";
-
-
-
-    container.innerHTML =
-        html;
-
-
-    card.classList.remove(
-        "hidden"
+    table.appendChild(
+        tbody
     );
+
+
+    return table;
 
 
 }
 
 
 
-function formatHeader(header) {
+function formatHeader(
+    header
+) {
 
 
     return header
 
-        .replaceAll("_", " ")
+        .replaceAll(
+            "_",
+            " "
+        )
 
         .replace(
-
             /\b\w/g,
-
-            letter =>
-                letter.toUpperCase()
-
+            char =>
+                char.toUpperCase()
         );
 
 
@@ -748,177 +1386,248 @@ function formatHeader(header) {
 
 
 
-function showChart(data) {
+function formatValue(
+    column,
+    value
+) {
 
 
     if (
-        !data.chart ||
-        !data.rows ||
-        data.rows.length === 0
+        typeof value ===
+        "number"
     ) {
 
-        return;
+
+        const name =
+            column.toLowerCase();
+
+
+        if (
+            name.includes(
+                "sales"
+            ) ||
+
+            name.includes(
+                "revenue"
+            ) ||
+
+            name.includes(
+                "amount"
+            )
+        ) {
+
+
+            return (
+                "₹" +
+                value.toLocaleString(
+                    "en-IN"
+                )
+            );
+
+
+        }
+
+
+        return value.toLocaleString(
+            "en-IN"
+        );
+
 
     }
 
 
-
-    const chartCard =
-
-        document.getElementById(
-            "chartCard"
-        );
+    return value;
 
 
-    chartCard.classList.remove(
-        "hidden"
-    );
+}
 
 
 
-    document.getElementById(
-        "chartTitle"
-    ).innerText =
-        data.title;
+function renderChart(
+    canvas,
+    data
+) {
 
 
-
-    const xKey =
+    const x =
         data.chart.x;
 
 
-    const yKey =
+    const y =
         data.chart.y;
 
 
-
     const labels =
-
         data.rows.map(
-
-            row => row[xKey]
-
+            row =>
+                row[x]
         );
-
 
 
     const values =
-
         data.rows.map(
-
-            row => row[yKey]
-
+            row =>
+                row[y]
         );
 
 
+    new Chart(
+        canvas,
+        {
 
-    const canvas =
+            type:
+                data.chart.type,
 
-        document.getElementById(
-            "salesChart"
-        );
+            data: {
 
+                labels:
+                    labels,
 
+                datasets: [
 
-    if (currentChart) {
+                    {
 
-        currentChart.destroy();
+                        label:
+                            data.title,
 
-    }
+                        data:
+                            values,
 
+                        borderWidth:
+                            2,
 
+                        fill:
+                            false
 
-    currentChart =
+                    }
 
-        new Chart(
+                ]
 
-            canvas,
+            },
 
-            {
+            options: {
 
-                type:
-                    data.chart.type,
+                responsive:
+                    true,
 
-                data: {
+                maintainAspectRatio:
+                    true,
 
-                    labels:
-                        labels,
+                plugins: {
 
-                    datasets: [
+                    legend: {
 
-                        {
+                        display:
+                            data.chart.type
+                            === "pie"
 
-                            label:
-                                "Sales",
-
-                            data:
-                                values,
-
-                            borderWidth:
-                                1
-
-                        }
-
-                    ]
+                    }
 
                 },
 
-                options: {
+                scales:
 
-                    responsive:
-                        true,
+                    data.chart.type ===
+                    "pie"
 
-                    plugins: {
+                    ? {}
 
-                        legend: {
+                    : {
 
-                            display:
-                                false
+                        y: {
+
+                            beginAtZero:
+                                true
 
                         }
 
                     }
 
-                }
-
             }
 
-        );
+        }
+    );
 
 
 }
 
 
 
-document
-    .getElementById(
-        "searchInput"
-    )
-    .addEventListener(
-
-        "keydown",
-
-        function(event) {
+function scrollBottom() {
 
 
-            if (
-                event.key === "Enter"
-            ) {
+    window.scrollTo({
 
-                searchReport();
+        top:
+            document.body.scrollHeight,
 
-            }
+        behavior:
+            "smooth"
+
+    });
+
+
+}
+
+
+
+const input =
+    document.getElementById(
+        "messageInput"
+    );
+
+
+input.addEventListener(
+    "input",
+    resizeTextarea
+);
+
+
+input.addEventListener(
+    "keydown",
+    function(event) {
+
+
+        if (
+            event.key === "Enter" &&
+            !event.shiftKey
+        ) {
+
+
+            event.preventDefault();
+
+
+            sendMessage();
 
 
         }
 
-    );
+
+    }
+);
+
+
+
+function resizeTextarea() {
+
+
+    input.style.height =
+        "auto";
+
+
+    input.style.height =
+        Math.min(
+            input.scrollHeight,
+            140
+        ) + "px";
+
+
+}
 
 
 </script>
 
 
 </body>
-
 
 </html>

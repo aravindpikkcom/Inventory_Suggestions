@@ -1,0 +1,12 @@
+{
+  "name": "reflexn-backend",
+  "version": "1.0.0",
+  "description": "Sign in / create account backend for the reflexn reporting app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
