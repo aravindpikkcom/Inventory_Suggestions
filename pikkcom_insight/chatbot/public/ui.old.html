@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>reflexn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #050505;
+    --line: #232323;
+    --text: #ffffff;
+    --text-dim: #7a7a7a;
+    --text-faint: #454545;
+    --accent: #7C6FEF;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    overflow: hidden;
+  }
+
+  @keyframes ripple { 0% { transform: scale(0.25); opacity: 0.5; } 100% { transform: scale(1); opacity: 0; } }
+  @keyframes breathe { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+  @keyframes sheen { 0% { left: -60%; } 100% { left: 130%; } }
+  @keyframes drift { 0%,100% { transform: translateY(0); opacity: 0.2; } 50% { transform: translateY(-8px); opacity: 0.55; } }
+
+  .page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px);
+  }
+
+  /* --- editorial masthead --- */
+  .masthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px clamp(20px, 4vw, 56px) 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .logo { display: flex; align-items: baseline; font-family: 'Baloo 2', -apple-system, sans-serif; font-weight: 800; font-size: clamp(20px, 2.4vw, 28px); letter-spacing: 0.5px; }
+  .logo .dot { color: var(--accent); margin-left: 2px; }
+  .kicker { font-size: 11px; letter-spacing: 3px; color: var(--text-dim); text-transform: uppercase; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+  .kicker .mark { margin-top: 0; font-size: clamp(10px, 1.1vw, 12px); letter-spacing: 4px; font-weight: 600; color: var(--text); text-transform: none; white-space: nowrap; }
+  .kicker .mark .glyph { color: var(--text-dim); font-size: 0.7em; vertical-align: 0.08em; }
+
+  .foot-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px clamp(20px, 4vw, 56px);
+    border-top: 1px solid var(--line);
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+  }
+
+  .corner { position: absolute; width: 14px; height: 14px; opacity: 0.35; }
+  .corner::before, .corner::after { content: ''; position: absolute; background: var(--text-dim); }
+  .corner::before { width: 100%; height: 1px; top: 50%; }
+  .corner::after { height: 100%; width: 1px; left: 50%; }
+  .corner.tl { top: 78px; left: clamp(20px, 4vw, 56px); }
+  .corner.tr { top: 78px; right: clamp(20px, 4vw, 56px); }
+  .corner.bl { bottom: 56px; left: clamp(20px, 4vw, 56px); }
+  .corner.br { bottom: 56px; right: clamp(20px, 4vw, 56px); }
+
+  .spine {
+    position: absolute;
+    right: clamp(16px, 3vw, 40px);
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    transform-origin: center;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* --- main content --- */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ripple-wrap { position: relative; width: min(34vw, 280px); height: min(34vw, 280px); display: flex; align-items: center; justify-content: center; }
+  .ring { position: absolute; width: 22%; height: 22%; border-radius: 50%; border: 1px solid #4a4a4a; animation: ripple 4.5s ease-out infinite; }
+  .center-dot { width: 6px; height: 6px; border-radius: 50%; background: #d4d4d4; animation: breathe 4.5s ease-in-out infinite; }
+  .mote { position: absolute; width: 3px; height: 3px; border-radius: 50%; background: #8a8a8a; animation: drift 4s ease-in-out infinite; }
+
+  .search-pill {
+    position: relative;
+    margin-top: 5vh;
+    width: min(560px, 88vw);
+    border: 1px solid #383838;
+    border-radius: 32px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #0f0f0f;
+    overflow: hidden;
+  }
+  .search-pill .sheen { position: absolute; top: 0; bottom: 0; width: 35%; background: rgba(255,255,255,0.035); animation: sheen 6s ease-in-out infinite; }
+  .search-pill input { position: relative; flex: 1; background: transparent; border: none; outline: none; color: var(--text); font-size: 15px; font-family: inherit; }
+  .search-pill input::placeholder { color: var(--text-dim); }
+  .search-pill button { position: relative; background: none; border: none; color: var(--text); font-size: 20px; cursor: pointer; line-height: 1; padding: 0; }
+
+  .hint { margin-top: 16px; font-size: 12px; color: var(--text-faint); text-align: center; }
+
+  .chips { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 26px; max-width: 560px; }
+  .chip { border: 1px solid #262626; border-radius: 18px; padding: 8px 16px; font-size: 12px; color: var(--text-dim); background: none; cursor: pointer; font-family: inherit; transition: border-color 0.15s ease, color 0.15s ease; }
+  .chip:hover { border-color: #4a4a4a; color: var(--text); }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="masthead">
+    <div class="logo">PIKKCOM<span class="dot">.</span></div>
+    <div class="kicker"><span>Reflexn — Insight Reporting</span><span class="mark">R <span class="glyph">&#10022;</span> X</span></div>
+  </div>
+
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+  <div class="spine">Retail Intelligence</div>
+
+  <div class="main">
+    <div class="ripple-wrap">
+      <div class="ring"></div>
+      <div class="ring" style="animation-delay:1.5s"></div>
+      <div class="ring" style="animation-delay:3s"></div>
+      <div class="center-dot"></div>
+      <div class="mote" style="top:15%; left:20%; animation-delay:0.5s"></div>
+      <div class="mote" style="bottom:18%; right:15%; animation-delay:1.8s"></div>
+      <div class="mote" style="top:60%; right:8%; animation-delay:2.6s"></div>
+    </div>
+
+    <div class="search-pill">
+      <div class="sheen"></div>
+      <input type="text" id="query" placeholder="ask for a report..." onkeydown="if(event.key==='Enter') go()">
+      <button onclick="go()" aria-label="submit">&#8594;</button>
+    </div>
+
+    <div class="hint">tap to type, or wave to begin</div>
+
+    <div class="chips">
+      <button class="chip" onclick="go(&quot;this month's revenue&quot;)">this month's revenue</button>
+      <button class="chip" onclick="go('sarees performance')">sarees performance</button>
+      <button class="chip" onclick="go('top regions')">top regions</button>
+    </div>
+  </div>
+
+  <div class="foot-bar">
+    <span>A Pikkcom Product</span>
+    <span>reflexn.app</span>
+  </div>
+
+</div>
+
+<script>
+  function go(preset) {
+    const input = document.getElementById('query');
+    const q = preset || input.value;
+    if (!q) return;
+    // window.location.href = '/report.html?q=' + encodeURIComponent(q);
+    console.log('searching for:', q);
+  }
+</script>
+
+</body>
+</html>

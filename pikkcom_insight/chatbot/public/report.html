@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>reflexn report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #050505;
+    --card: #0b0b0b;
+    --panel: #141414;
+    --line: #262626;
+    --track: #222222;
+    --text: #ffffff;
+    --text-2: #d8d8d8;
+    --text-dim: #8a8a8a;
+    --text-faint: #555555;
+    --accent: #7C6FEF;
+    --error: #e0736b;
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; }
+
+  @keyframes page-in { from { opacity: 0; transform: translateY(10px); } }
+  @keyframes grow { from { transform: scaleX(0); } }
+  @keyframes rise { from { transform: scaleY(0); } }
+  @keyframes shimmer { 0%,100% { opacity: 0.4; } 50% { opacity: 0.8; } }
+
+  /* --- masthead / footer: same as index.html and ui.html --- */
+  .masthead { display: flex; align-items: center; justify-content: space-between; padding: 28px clamp(20px, 4vw, 56px) 18px; border-bottom: 1px solid #232323; }
+  .logo { display: flex; align-items: baseline; font-family: 'Baloo 2', -apple-system, sans-serif; font-weight: 800; font-size: clamp(20px, 2.4vw, 28px); letter-spacing: 0.5px; }
+  .logo .dot { color: var(--accent); margin-left: 2px; }
+  .kicker { font-size: 11px; letter-spacing: 3px; color: #7a7a7a; text-transform: uppercase; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+  .kicker .mark { font-size: clamp(10px, 1.1vw, 12px); letter-spacing: 4px; font-weight: 600; color: var(--text); text-transform: none; white-space: nowrap; }
+  .kicker .mark .glyph { color: #7a7a7a; font-size: 0.7em; vertical-align: 0.08em; }
+  .foot-bar { display: flex; align-items: center; justify-content: space-between; padding: 16px clamp(20px, 4vw, 56px); border-top: 1px solid #232323; font-size: 10px; letter-spacing: 2px; color: #454545; text-transform: uppercase; }
+
+  .wrap { max-width: 1160px; margin: 0 auto; padding: clamp(16px, 4vw, 48px) 16px; }
+  .card { background: var(--card); border: 1px solid #1d1d1d; border-radius: 28px; padding: clamp(20px, 4vw, 44px); animation: page-in 480ms var(--ease-out) backwards; }
+
+  .head > * { min-width: 0; }
+  .head { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; }
+  .prompt-chip { display: inline-flex; align-items: center; gap: 14px; max-width: 100%; padding: 13px 26px; border: 1px solid #333; border-radius: 28px; color: var(--text-2); font-size: 17px; text-decoration: none; }
+  .prompt-chip .box { width: 14px; height: 14px; border: 1.5px solid var(--text-dim); border-radius: 2px; flex-shrink: 0; }
+  .prompt-chip span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  a.prompt-chip:hover { border-color: #4a4a4a; }
+
+  h1 { margin: 0; font-size: 27px; font-weight: 500; }
+  .period { font-size: 13px; color: var(--text-dim); margin-bottom: 26px; }
+
+  .grid { display: grid; gap: 22px; }
+  .kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .two { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 22px; }
+  .full { margin-top: 22px; }
+
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 26px 28px; min-width: 0; }
+  .kpi .value { font-size: 28px; font-weight: 500; font-variant-numeric: tabular-nums; }
+  .kpi .label { margin-top: 10px; font-size: 16px; color: var(--text-dim); }
+  .panel-title { font-size: 16px; color: var(--text-dim); margin-bottom: 22px; }
+
+  .donut-wrap { display: flex; justify-content: center; margin: 4px 0 26px; }
+  .donut { width: 170px; height: 170px; transform: rotate(-90deg); }
+  .donut circle { fill: none; stroke-width: 22; transition: opacity 0.15s ease; }
+  .legend { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .legend li { display: flex; align-items: center; gap: 14px; font-size: 17px; color: var(--text-2); cursor: default; }
+  .legend .sw { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+  .legend li .rev { margin-left: auto; font-size: 13px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+
+  .bars { display: flex; flex-direction: column; gap: 18px; }
+  .bar-row { display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr) 64px; align-items: center; gap: 20px; }
+  .bar-row .name { font-size: 17px; color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar-row .track { height: 20px; background: var(--track); border-radius: 6px; overflow: hidden; }
+  .bar-row .fill { height: 100%; border-radius: 6px; transform-origin: left; animation: grow 700ms var(--ease-out) backwards; }
+  .bar-row .num { font-size: 15px; color: var(--text-dim); text-align: right; font-variant-numeric: tabular-nums; }
+  .bar-row .detail { grid-column: 2 / 4; margin-top: -12px; font-size: 12px; color: var(--text-faint); }
+
+  .trend { display: flex; align-items: flex-end; gap: 4px; height: 190px; padding-top: 10px; }
+  .trend .col { flex: 1; height: 100%; display: flex; align-items: flex-end; min-width: 0; }
+  .trend .col div { width: 100%; border-radius: 4px 4px 0 0; background: var(--accent); opacity: 0.85; transform-origin: bottom; animation: rise 700ms var(--ease-out) backwards; }
+  .trend .col:hover div { opacity: 1; }
+  .trend-axis { display: flex; gap: 4px; margin-top: 8px; }
+  .trend-axis span { flex: 1; min-width: 0; font-size: 11px; color: var(--text-faint); text-align: center; white-space: nowrap; overflow: visible; }
+
+  .section-label { margin: 40px 0 0; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-faint); }
+  .panel-note { margin: -14px 0 20px; font-size: 12px; color: var(--text-faint); }
+
+  .stack-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 20px; }
+  .stack-legend span { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-2); }
+  .stack-legend i { width: 10px; height: 10px; border-radius: 50%; }
+  .stack-row { display: grid; grid-template-columns: 90px minmax(0, 1fr) 56px; align-items: center; gap: 16px; }
+  .stack-row + .stack-row { margin-top: 14px; }
+  .stack-row .name { font-size: 15px; color: var(--text-2); }
+  .stack-row .track { display: flex; height: 20px; border-radius: 6px; overflow: hidden; background: var(--track); transform-origin: left; animation: grow 700ms var(--ease-out) backwards; }
+  .stack-row .track div { height: 100%; }
+  .stack-row .track div + div { border-left: 1px solid var(--panel); }
+  .stack-row .num { font-size: 13px; color: var(--text-dim); text-align: right; font-variant-numeric: tabular-nums; }
+
+  .mini-kpis { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-bottom: 24px; }
+  .mini-kpis div { font-size: 22px; font-variant-numeric: tabular-nums; }
+  .mini-kpis small { display: block; margin-top: 4px; font-size: 13px; color: var(--text-dim); }
+  .up { color: #3FC08E; }
+  .down { color: #E8735A; }
+  .trend .col.future div { background: repeating-linear-gradient(135deg, rgba(127,118,224,0.55) 0 4px, rgba(127,118,224,0.25) 4px 8px); opacity: 1; }
+  .trend-legend { display: flex; gap: 18px; margin-top: 14px; font-size: 12px; color: var(--text-dim); }
+  .trend-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--accent); }
+  .trend-legend i.future { background: repeating-linear-gradient(135deg, rgba(127,118,224,0.7) 0 3px, rgba(127,118,224,0.25) 3px 6px); }
+
+  .diverge { display: flex; flex-direction: column; gap: 12px; }
+  .div-row { display: grid; grid-template-columns: minmax(0, 240px) minmax(0, 1fr) 60px; align-items: center; gap: 16px; }
+  .div-row .name { font-size: 15px; color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .div-row .axis { position: relative; height: 18px; }
+  .div-row .axis::before { content: ''; position: absolute; left: 50%; top: -6px; bottom: -6px; width: 1px; background: #333; }
+  .div-row .axis div { position: absolute; top: 0; height: 100%; border-radius: 4px; animation: grow 700ms var(--ease-out) backwards; }
+  .div-row .axis .pos { left: 50%; background: #1FA37A; transform-origin: left; }
+  .div-row .axis .neg { right: 50%; background: #E0592E; transform-origin: right; }
+  .div-row .num { font-size: 14px; text-align: right; font-variant-numeric: tabular-nums; }
+
+  .under { display: flex; flex-direction: column; }
+  .under-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 20px; padding: 16px 0; border-top: 1px solid var(--line); }
+  .under-row:first-child { border-top: 0; padding-top: 0; }
+  .under-row .name { font-size: 16px; color: var(--text-2); }
+  .under-row .name small { margin-left: 8px; font-size: 12px; color: var(--text-faint); }
+  .under-row .num { font-size: 15px; color: var(--text-dim); text-align: right; font-variant-numeric: tabular-nums; }
+  .under-row .tags { grid-column: 1 / 3; display: flex; flex-wrap: wrap; gap: 8px; }
+  .under-row .tags span { font-size: 12px; padding: 4px 10px; border-radius: 12px; border: 1px solid rgba(232,115,90,0.35); color: #E8A08E; }
+
+  .empty { color: var(--text-faint); font-size: 14px; padding: 12px 0; }
+  .state { text-align: center; padding: 80px 0; color: var(--text-dim); }
+  .state.error { color: var(--error); }
+  .loading { animation: shimmer 1.4s ease-in-out infinite; }
+
+
+  @media (max-width: 760px) {
+    .kpis, .two { grid-template-columns: minmax(0, 1fr); }
+    .bar-row { grid-template-columns: minmax(0, 1fr) 56px; gap: 8px 14px; }
+    .bar-row .name { grid-column: 1 / 3; }
+    .bar-row .detail { grid-column: 1 / 3; margin-top: -4px; }
+    .div-row { grid-template-columns: minmax(0, 1fr) 56px; gap: 6px 14px; }
+    .div-row .name { grid-column: 1 / 3; }
+    .stack-row { grid-template-columns: 64px minmax(0, 1fr) 44px; gap: 10px; }
+    .prompt-chip { font-size: 14px; padding: 10px 18px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .card, .fill, .trend .col div, .loading, .stack-row .track, .div-row .axis div { animation: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="logo">PIKKCOM<span class="dot">.</span></div>
+  <div class="kicker"><span>Reflexn — Insight Reporting</span><span class="mark">R <span class="glyph">&#10022;</span> X</span></div>
+</div>
+
+<div class="wrap">
+  <div class="card">
+    <div class="head">
+      <h1 id="title">report</h1>
+      <a class="prompt-chip" id="prompt-chip" href="/ui.html" title="back to search"><span class="box"></span><span id="prompt-text">report</span></a>
+    </div>
+    <div class="period" id="period">&nbsp;</div>
+
+    <div id="content"><div class="state loading">building report…</div></div>
+  </div>
+
+</div>
+
+<div class="foot-bar">
+  <span>A Pikkcom Product</span>
+  <span>reflexn.app</span>
+</div>
+
+<script>
+  const PALETTE = ['#7F76E0', '#1FA37A', '#E0592E', '#D44D7F', '#F0A020'];
+  const OTHERS = '#4a4a4a';
+  // Colour breakdown uses the actual product colours.
+  const COLOUR_HEX = {
+    red: '#B52222', maroon: '#7A1F2E', blue: '#2456A6', navy: '#26386E', 'sky blue': '#5B9BD5', indigo: '#3B3F8F',
+    green: '#2E6B3A', 'sage green': '#7F9B7A', olive: '#6B6B2E', teal: '#1F8A8A', yellow: '#D4A020', mustard: '#D4A020',
+    gold: '#C9A227', pink: '#E48AA8', black: '#3A3030', white: '#E8E8E8', 'off-white': '#D9D2C0', cream: '#E6DCC0',
+    beige: '#C8B28A', khaki: '#B39C68',
+  };
+
+  const params = new URLSearchParams(location.search);
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  function inr(n) {
+    if (n >= 1e7) return '₹' + (n / 1e7).toFixed(2).replace(/\.?0+$/, '') + 'Cr';
+    if (n >= 1e5) return '₹' + (n / 1e5).toFixed(1).replace(/\.0$/, '') + 'L';
+    return '₹' + Math.round(n).toLocaleString('en-IN');
+  }
+  const compact = (n) => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(n));
+  const num = (n) => Math.round(n).toLocaleString('en-IN');
+  const monthName = (ym, withYear) => {
+    const [y, m] = ym.split('-').map(Number);
+    return new Date(y, m - 1, 1).toLocaleString('en-IN', withYear ? { month: 'short', year: 'numeric' } : { month: 'short' });
+  };
+  const fmtDate = (d) => new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+
+  // Top 4 slices + "others", so the donut stays readable.
+  function slices(rows, colourFor) {
+    const total = rows.reduce((a, r) => a + r.units, 0) || 1;
+    let list = rows.slice(0, 5);
+    if (rows.length > 5) {
+      list = rows.slice(0, 4);
+      const rest = rows.slice(4);
+      list.push({ label: 'others', units: rest.reduce((a, r) => a + r.units, 0), revenue: rest.reduce((a, r) => a + r.revenue, 0), others: true });
+    }
+    return list.map((r, i) => ({ ...r, pct: (r.units / total) * 100, color: r.others ? OTHERS : colourFor(r, i) }));
+  }
+
+  function donut(title, items) {
+    if (!items.length) return `<div class="panel"><div class="panel-title">${esc(title)}</div><div class="empty">no sales in this selection</div></div>`;
+    const r = 60;
+    const c = 2 * Math.PI * r;
+    let offset = 0;
+    const arcs = items.map((it, i) => {
+      const len = (it.pct / 100) * c;
+      const arc = `<circle data-i="${i}" r="${r}" cx="85" cy="85" stroke="${it.color}" stroke-dasharray="${len} ${c - len}" stroke-dashoffset="${-offset}"><title>${esc(it.label)} — ${num(it.units)} sold, ${inr(it.revenue)}</title></circle>`;
+      offset += len;
+      return arc;
+    }).join('');
+    const legend = items.map((it, i) =>
+      `<li data-i="${i}"><span class="sw" style="background:${it.color}"></span>${esc(it.label.toLowerCase())} - ${Math.round(it.pct)}%<span class="rev">${inr(it.revenue)}</span></li>`
+    ).join('');
+    return `<div class="panel donut-panel"><div class="panel-title">${esc(title)}</div>
+      <div class="donut-wrap"><svg class="donut" viewBox="0 0 170 170" role="img" aria-label="${esc(title)}">${arcs}</svg></div>
+      <ul class="legend">${legend}</ul></div>`;
+  }
+
+  function bars(title, rows, valueOf, labelOf, detailOf, emptyText) {
+    if (!rows.length) return `<div class="panel full"><div class="panel-title">${esc(title)}</div><div class="empty">${esc(emptyText)}</div></div>`;
+    const max = Math.max(...rows.map(valueOf)) || 1;
+    const body = rows.map((r, i) => `
+      <div class="bar-row">
+        <div class="name" title="${esc(r.label)}">${esc(r.label.toLowerCase())}</div>
+        <div class="track"><div class="fill" style="width:${(valueOf(r) / max) * 92}%; background:${PALETTE[i % PALETTE.length]}; animation-delay:${i * 60}ms"></div></div>
+        <div class="num">${labelOf(r)}</div>
+        ${detailOf ? `<div class="detail">${detailOf(r)}</div>` : ''}
+      </div>`).join('');
+    return `<div class="panel full"><div class="panel-title">${esc(title)}</div><div class="bars">${body}</div></div>`;
+  }
+
+  function trend(rows) {
+    if (rows.length < 2) return '';
+    const max = Math.max(...rows.map((r) => r.revenue)) || 1;
+    const every = Math.ceil(rows.length / (window.innerWidth < 760 ? 4 : 8));
+    const cols = rows.map((r, i) =>
+      `<div class="col" title="${monthName(r.month, true)} — ${inr(r.revenue)}, ${num(r.units)} sold"><div style="height:${Math.max((r.revenue / max) * 100, 1)}%; animation-delay:${i * 20}ms"></div></div>`
+    ).join('');
+    const axis = rows.map((r, i) =>
+      `<span>${i % every === 0 ? monthName(r.month, i === 0 || r.month.endsWith('-01')) : ''}</span>`
+    ).join('');
+    return `<div class="panel full"><div class="panel-title">monthly revenue</div><div class="trend">${cols}</div><div class="trend-axis">${axis}</div></div>`;
+  }
+
+  const pct = (x) => `${x >= 0 ? '+' : '−'}${Math.abs(Math.round(x * 100))}%`;
+  const panel = (title, body, note, cls = 'panel full') =>
+    `<div class="${cls}"><div class="panel-title">${esc(title)}</div>${note ? `<div class="panel-note">${esc(note)}</div>` : ''}${body}</div>`;
+  const half = (html) => html.replace('panel full', 'panel');
+
+  function mirrorAge(rows) {
+    const known = rows.filter((r) => r.age !== 'anonymous');
+    const anon = rows.find((r) => r.age === 'anonymous');
+    const note = anon ? `${num(anon.sessions)} more sessions were anonymous shoppers (age unknown)` : '';
+    if (!known.length) return panel('mirror users by age group', '<div class="empty">no identified mirror shoppers in this selection</div>', '', 'panel');
+    return half(bars('mirror users by age group', known.map((r) => ({ ...r, label: r.age })), (r) => r.sessions,
+      (r) => num(r.sessions), (r) => `${Math.round((r.converted / (r.sessions || 1)) * 100)}% bought after the session`, ''))
+      .replace('<div class="bars">', `<div class="panel-note">${esc(note)}</div><div class="bars">`);
+  }
+
+  function sareeAge(d) {
+    if (!d) return '';
+    const title = 'saree types tried by age group';
+    if (!d.rows.length) return panel(title, '<div class="empty">no saree try-ons by identified shoppers in this selection</div>', '', 'panel');
+    const colour = (i) => (i < PALETTE.length ? PALETTE[i] : ['#5BA3D9', '#9A9A9A'][i - PALETTE.length] || OTHERS);
+    const legend = `<div class="stack-legend">${d.types.map((t, i) => `<span><i style="background:${colour(i)}"></i>${esc(t.toLowerCase())}</span>`).join('')}</div>`;
+    const rows = d.rows.map((r, ri) => `
+      <div class="stack-row">
+        <div class="name">${esc(r.age)}</div>
+        <div class="track" style="animation-delay:${ri * 60}ms">${r.split.map((v, i) => v ? `<div style="width:${(v / r.total) * 100}%; background:${colour(i)}" title="${esc(d.types[i])}: ${Math.round((v / r.total) * 100)}% of ${esc(r.age)} try-ons (${num(v)})"></div>` : '').join('')}</div>
+        <div class="num">${compact(r.total)}</div>
+      </div>`).join('');
+    return panel(title, legend + rows, 'share of saree try-ons on the mirror; right: total try-ons', 'panel');
+  }
+
+  function forecastPanel(fc) {
+    if (!fc) return '';
+    const cols = [...fc.history.map((r) => ({ ...r, future: false })), ...fc.next.map((r) => ({ ...r, future: true }))];
+    const max = Math.max(...cols.map((r) => r.revenue)) || 1;
+    const every = Math.ceil(cols.length / (window.innerWidth < 760 ? 4 : 8));
+    const growth = fc.nextRevenue / (fc.lastYearRevenue || 1) - 1;
+    const chart = `<div class="trend">${cols.map((r, i) =>
+      `<div class="col${r.future ? ' future' : ''}" title="${monthName(r.month, true)} — ${r.future ? 'forecast ' : ''}${inr(r.revenue)}, ${num(r.units)} sold"><div style="height:${Math.max((r.revenue / max) * 100, 1)}%; animation-delay:${i * 20}ms"></div></div>`).join('')}</div>
+      <div class="trend-axis">${cols.map((r, i) => `<span>${i % every === 0 ? monthName(r.month, i === 0 || r.month.endsWith('-01')) : ''}</span>`).join('')}</div>
+      <div class="trend-legend"><span><i></i>actual</span><span><i class="future"></i>forecast</span></div>`;
+    const kpis = `<div class="mini-kpis">
+      <div>${inr(fc.nextRevenue)}<small>projected revenue, next 12 months</small></div>
+      <div class="${growth >= 0 ? 'up' : 'down'}">${pct(growth)}<small>vs last 12 months</small></div>
+      <div>${num(fc.nextUnits)}<small>projected ${esc(currentNoun)} sold</small></div></div>`;
+    const how = fc.method === 'average'
+      ? 'less than a year of history: projects the recent monthly average'
+      : `each month = the same month last year × ${fc.growth.toFixed(2)} (year-on-year growth); uses all history, not just the report period`;
+    return panel('prediction for next year', kpis + chart, how);
+  }
+
+  function trendPanel(rows, monthly) {
+    if (!rows.length) return '';
+    const picked = rows.length > 10 ? [...rows.slice(0, 5), ...rows.slice(-5)] : rows;
+    const max = Math.max(...picked.map((r) => Math.abs(r.growth))) || 1;
+    const list = picked.map((r, i) => `
+      <div class="div-row">
+        <div class="name" title="${esc(r.label)}">${esc(r.label.toLowerCase())}</div>
+        <div class="axis"><div class="${r.growth >= 0 ? 'pos' : 'neg'}" style="width:${(Math.abs(r.growth) / max) * 50}%; animation-delay:${i * 40}ms" title="${inr(r.prev)} → ${inr(r.cur)}"></div></div>
+        <div class="num ${r.growth >= 0 ? 'up' : 'down'}">${pct(r.growth)}</div>
+      </div>`).join('');
+    // Seasonality: which calendar months sell best on average.
+    const byMonth = {};
+    monthly.forEach((r) => { const m = r.month.slice(5); (byMonth[m] = byMonth[m] || []).push(r.revenue); });
+    const peaks = Object.entries(byMonth)
+      .map(([m, v]) => [m, v.reduce((a, b) => a + b, 0) / v.length])
+      .sort((a, b) => b[1] - a[1]).slice(0, 3)
+      .map(([m]) => new Date(2000, Number(m) - 1, 1).toLocaleString('en-IN', { month: 'long' }).toLowerCase());
+    const rising = rows.filter((r) => r.growth > 0).length;
+    const summary = `<div class="mini-kpis">
+      <div class="up">${rising}<small>products growing</small></div>
+      <div class="down">${rows.length - rising}<small>products declining</small></div>
+      <div>${esc(peaks.join(', '))}<small>peak months</small></div></div>`;
+    return panel('trend analysis', summary + `<div class="diverge">${list}</div>`, 'revenue, last 12 months vs the 12 months before');
+  }
+
+  function westernPanels(w) {
+    if (!w) return '';
+    const one = (title, rows) => half(bars(title, rows, (r) => r.revenue, (r) => inr(r.revenue),
+      (r) => `${r.gender.toLowerCase()} · ${num(r.units)} sold`, 'no sales in this selection'));
+    const groups = [['western tops', w.tops], ['western bottoms', w.bottoms]].filter(([, rows]) => rows.length);
+    if (!groups.length) return '';
+    const html = groups.map(([title, rows]) => one(title, rows)).join('');
+    return `<div class="section-label">western wear</div>
+      ${groups.length === 2 ? `<div class="grid two">${html}</div>` : `<div class="full">${html}</div>`}`;
+  }
+
+  function underPanel(rows) {
+    const title = 'under-performing products';
+    if (!rows.length) return panel(title, '<div class="empty">nothing stands out as under-performing in this selection</div>');
+    const list = rows.map((r) => `
+      <div class="under-row">
+        <div class="name">${esc(r.label.toLowerCase())}<small>${esc(r.category.toLowerCase())}</small></div>
+        <div class="num">${inr(r.revenue)} · ${num(r.units)} sold</div>
+        <div class="tags">${r.reasons.map((x) => `<span>${esc(x)}</span>`).join('')}</div>
+      </div>`).join('');
+    return panel(title, `<div class="under">${list}</div>`, 'flagged on revenue vs category peers, year-on-year change, mirror try-on to pick rate and stock cover');
+  }
+
+  // Hovering a legend row highlights its donut slice (and vice versa).
+  function wireDonuts() {
+    document.querySelectorAll('.donut-panel').forEach((panel) => {
+      const arcs = panel.querySelectorAll('circle');
+      const focus = (i) => arcs.forEach((a) => { a.style.opacity = i === null || a.dataset.i === i ? '1' : '0.25'; });
+      panel.querySelectorAll('[data-i]').forEach((el) => {
+        el.addEventListener('mouseenter', () => focus(el.dataset.i));
+        el.addEventListener('mouseleave', () => focus(null));
+      });
+    });
+  }
+
+  let currentNoun = 'items';
+
+  function render(d) {
+    const noun = d.noun;
+    currentNoun = noun;
+    const f = d.filters;
+    const title = params.get('title') || (f.category ? `${noun} report` : 'sales report');
+    document.title = `${title} · reflexn`;
+    $('title').textContent = title;
+    $('prompt-text').textContent = params.get('q') || title;
+
+    const scope = [f.store, f.city, f.region, f.gender].filter(Boolean).join(' · ');
+    $('period').textContent = d.period.first
+      ? `${fmtDate(d.period.first)} – ${fmtDate(d.period.last)}${scope ? ' · ' + scope : ''}`
+      : scope;
+
+    if (!d.totals.units) {
+      $('content').innerHTML = '<div class="state">no sales match this report’s filters.</div>';
+      return;
+    }
+
+    const typeSlices = slices(d.byType, (_, i) => PALETTE[i]);
+    const colourSlices = slices(d.byColour, (r, i) => COLOUR_HEX[r.label.toLowerCase()] || PALETTE[i]);
+
+    $('content').innerHTML = `
+      <div class="grid kpis">
+        <div class="panel kpi"><div class="value">${num(d.totals.units)}</div><div class="label">${esc(noun)} sold</div></div>
+        <div class="panel kpi"><div class="value">${inr(d.totals.revenue)}</div><div class="label">revenue</div></div>
+        <div class="panel kpi"><div class="value">${inr(d.totals.avgPrice)}</div><div class="label">avg. price</div></div>
+      </div>
+      <div class="grid two">
+        ${donut(`${noun} by ${d.typeLabel === 'fabric' ? 'type' : 'category'}`, typeSlices)}
+        ${donut(`${noun} by colour`, colourSlices)}
+      </div>
+      ${bars(`most viewed ${noun}`, d.mostViewed, (r) => r.views, (r) => compact(r.views),
+        (r) => `${compact(r.tried)} tried · ${compact(r.selected)} selected on the mirror`,
+        'no smart-mirror views in this period (mirrors went live in July 2026)')}
+
+      <div class="section-label">mirror shoppers</div>
+      ${d.sareeAge
+        ? `<div class="grid two">${mirrorAge(d.mirrorAge)}${sareeAge(d.sareeAge)}</div>`
+        : `<div class="full">${mirrorAge(d.mirrorAge)}</div>`}
+      <div class="section-label">trends &amp; forecast</div>
+      ${trend(d.trend)}
+      ${forecastPanel(d.forecast)}
+      ${trendPanel(d.trends, d.monthlyAllTime)}
+      ${westernPanels(d.western)}
+      <div class="section-label">performance</div>
+      <div class="grid two">
+        ${half(bars('top sellers by revenue', d.topProducts, (r) => r.revenue, (r) => inr(r.revenue), (r) => `${num(r.units)} sold`, ''))}
+        ${half(bars('revenue by store', d.byStore, (r) => r.revenue, (r) => inr(r.revenue), (r) => `${num(r.units)} sold`, ''))}
+      </div>
+      ${underPanel(d.underperformers)}`;
+    wireDonuts();
+  }
+
+  fetch('/api/report' + location.search)
+    .then(async (res) => {
+      if (res.status === 401) { location.href = '/'; return; }
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'could not load the report');
+      render(data);
+    })
+    .catch((e) => {
+      $('content').innerHTML = `<div class="state error">${esc(e.message || 'could not load the report')}</div>`;
+    });
+</script>
+</body>
+</html>

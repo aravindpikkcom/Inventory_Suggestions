@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Retail Intelligence
+    </title>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+
+
+    <style>
+
+        body {
+
+            margin: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f5f6f8;
+
+            color: #222;
+
+        }
+
+
+        .container {
+
+            width: 90%;
+
+            max-width: 1100px;
+
+            margin: 50px auto;
+
+        }
+
+
+        .title {
+
+            font-size: 32px;
+
+            font-weight: bold;
+
+            margin-bottom: 5px;
+
+        }
+
+
+        .subtitle {
+
+            color: #777;
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .search-container {
+
+            display: flex;
+
+            gap: 10px;
+
+            background: white;
+
+            padding: 18px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 4px 15px
+                rgba(0,0,0,0.05);
+
+        }
+
+
+        #searchInput {
+
+            flex: 1;
+
+            padding: 15px;
+
+            font-size: 16px;
+
+            border:
+
+                1px solid #ddd;
+
+            border-radius: 8px;
+
+            outline: none;
+
+        }
+
+
+        #searchInput:focus {
+
+            border-color: #333;
+
+        }
+
+
+        #searchButton {
+
+            padding:
+
+                14px 30px;
+
+            background: #111;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 8px;
+
+            cursor: pointer;
+
+            font-size: 16px;
+
+        }
+
+
+        #searchButton:hover {
+
+            background: #333;
+
+        }
+
+
+        #searchButton:disabled {
+
+            opacity: 0.5;
+
+        }
+
+
+        .card {
+
+            background: white;
+
+            margin-top: 25px;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            box-shadow:
+
+                0 4px 15px
+                rgba(0,0,0,0.05);
+
+        }
+
+
+        .hidden {
+
+            display: none;
+
+        }
+
+
+        #answer {
+
+            font-size: 20px;
+
+            font-weight: 600;
+
+            margin-top: 10px;
+
+        }
+
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+            margin-top: 15px;
+
+        }
+
+
+        th {
+
+            background: #f5f5f5;
+
+            text-align: left;
+
+            padding: 12px;
+
+        }
+
+
+        td {
+
+            padding: 12px;
+
+            border-bottom:
+
+                1px solid #eee;
+
+        }
+
+
+        .loading {
+
+            margin-top: 20px;
+
+            color: #555;
+
+        }
+
+
+        .error {
+
+            color: red;
+
+            margin-top: 15px;
+
+        }
+
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <div class="title">
+
+        Retail Intelligence
+
+    </div>
+
+
+    <div class="subtitle">
+
+        Ask questions about your sales data
+
+    </div>
+
+
+
+    <div class="search-container">
+
+
+        <input
+
+            id="searchInput"
+
+            type="text"
+
+            placeholder="Example: Which saree has highest sales?"
+
+        >
+
+
+        <button
+
+            id="searchButton"
+
+            onclick="searchReport()"
+
+        >
+
+            Search
+
+        </button>
+
+
+    </div>
+
+
+
+    <div
+
+        id="loading"
+
+        class="loading hidden"
+
+    >
+
+        Searching...
+
+    </div>
+
+
+
+    <div
+
+        id="error"
+
+        class="error"
+
+    >
+
+    </div>
+
+
+
+    <div
+
+        id="answerCard"
+
+        class="card hidden"
+
+    >
+
+
+        <h2>
+            Answer
+        </h2>
+
+
+        <div id="answer"></div>
+
+
+    </div>
+
+
+
+    <div
+
+        id="chartCard"
+
+        class="card hidden"
+
+    >
+
+
+        <h2 id="chartTitle">
+
+            Report
+
+        </h2>
+
+
+        <canvas id="salesChart"></canvas>
+
+
+    </div>
+
+
+
+    <div
+
+        id="tableCard"
+
+        class="card hidden"
+
+    >
+
+
+        <h2>
+
+            Report Data
+
+        </h2>
+
+
+        <div id="tableContainer"></div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<script>
+
+
+let currentChart = null;
+
+
+
+async function searchReport() {
+
+
+    const input =
+
+        document.getElementById(
+            "searchInput"
+        );
+
+
+    const prompt =
+
+        input.value.trim();
+
+
+    const button =
+
+        document.getElementById(
+            "searchButton"
+        );
+
+
+    const loading =
+
+        document.getElementById(
+            "loading"
+        );
+
+
+    const error =
+
+        document.getElementById(
+            "error"
+        );
+
+
+
+    if (!prompt) {
+
+        error.innerText =
+            "Please enter a question.";
+
+        return;
+
+    }
+
+
+
+    error.innerText = "";
+
+
+    loading.classList.remove(
+        "hidden"
+    );
+
+
+    button.disabled = true;
+
+
+
+    try {
+
+
+        const response =
+
+            await fetch(
+
+                "http://127.0.0.1:8000/search",
+
+                {
+
+                    method: "POST",
+
+                    headers: {
+
+                        "Content-Type":
+                            "application/json"
+
+                    },
+
+                    body:
+
+                        JSON.stringify({
+
+                            prompt: prompt
+
+                        })
+
+                }
+
+            );
+
+
+
+        if (!response.ok) {
+
+            throw new Error(
+
+                "Backend request failed"
+
+            );
+
+        }
+
+
+
+        const data =
+
+            await response.json();
+
+
+
+        showAnswer(data);
+
+
+        showTable(data.rows);
+
+
+        showChart(data);
+
+
+
+    }
+
+    catch (err) {
+
+
+        console.error(err);
+
+
+        error.innerText =
+
+            "Unable to connect to backend.";
+
+
+    }
+
+    finally {
+
+
+        loading.classList.add(
+            "hidden"
+        );
+
+
+        button.disabled = false;
+
+
+    }
+
+
+}
+
+
+
+function showAnswer(data) {
+
+
+    const answerCard =
+
+        document.getElementById(
+            "answerCard"
+        );
+
+
+    document.getElementById(
+        "answer"
+    ).innerText =
+        data.answer;
+
+
+    answerCard.classList.remove(
+        "hidden"
+    );
+
+
+}
+
+
+
+function showTable(rows) {
+
+
+    const card =
+
+        document.getElementById(
+            "tableCard"
+        );
+
+
+    const container =
+
+        document.getElementById(
+            "tableContainer"
+        );
+
+
+
+    if (!rows || rows.length === 0) {
+
+
+        card.classList.add(
+            "hidden"
+        );
+
+
+        return;
+
+    }
+
+
+
+    const headers =
+
+        Object.keys(rows[0]);
+
+
+
+    let html =
+
+        "<table>";
+
+
+
+    html +=
+
+        "<thead><tr>";
+
+
+
+    headers.forEach(
+
+        header => {
+
+            html +=
+
+                `<th>${formatHeader(header)}</th>`;
+
+        }
+
+    );
+
+
+
+    html +=
+
+        "</tr></thead>";
+
+
+
+    html +=
+
+        "<tbody>";
+
+
+
+    rows.forEach(
+
+        row => {
+
+
+            html += "<tr>";
+
+
+            headers.forEach(
+
+                header => {
+
+
+                    let value =
+
+                        row[header];
+
+
+
+                    if (
+                        header === "total_sales"
+                    ) {
+
+                        value =
+
+                            "₹" +
+
+                            Number(value)
+                                .toLocaleString(
+                                    "en-IN"
+                                );
+
+                    }
+
+
+
+                    html +=
+
+                        `<td>${value}</td>`;
+
+                }
+
+            );
+
+
+            html += "</tr>";
+
+
+        }
+
+    );
+
+
+
+    html +=
+
+        "</tbody></table>";
+
+
+
+    container.innerHTML =
+        html;
+
+
+    card.classList.remove(
+        "hidden"
+    );
+
+
+}
+
+
+
+function formatHeader(header) {
+
+
+    return header
+
+        .replaceAll("_", " ")
+
+        .replace(
+
+            /\b\w/g,
+
+            letter =>
+                letter.toUpperCase()
+
+        );
+
+
+}
+
+
+
+function showChart(data) {
+
+
+    if (
+        !data.chart ||
+        !data.rows ||
+        data.rows.length === 0
+    ) {
+
+        return;
+
+    }
+
+
+
+    const chartCard =
+
+        document.getElementById(
+            "chartCard"
+        );
+
+
+    chartCard.classList.remove(
+        "hidden"
+    );
+
+
+
+    document.getElementById(
+        "chartTitle"
+    ).innerText =
+        data.title;
+
+
+
+    const xKey =
+        data.chart.x;
+
+
+    const yKey =
+        data.chart.y;
+
+
+
+    const labels =
+
+        data.rows.map(
+
+            row => row[xKey]
+
+        );
+
+
+
+    const values =
+
+        data.rows.map(
+
+            row => row[yKey]
+
+        );
+
+
+
+    const canvas =
+
+        document.getElementById(
+            "salesChart"
+        );
+
+
+
+    if (currentChart) {
+
+        currentChart.destroy();
+
+    }
+
+
+
+    currentChart =
+
+        new Chart(
+
+            canvas,
+
+            {
+
+                type:
+                    data.chart.type,
+
+                data: {
+
+                    labels:
+                        labels,
+
+                    datasets: [
+
+                        {
+
+                            label:
+                                "Sales",
+
+                            data:
+                                values,
+
+                            borderWidth:
+                                1
+
+                        }
+
+                    ]
+
+                },
+
+                options: {
+
+                    responsive:
+                        true,
+
+                    plugins: {
+
+                        legend: {
+
+                            display:
+                                false
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        );
+
+
+}
+
+
+
+document
+    .getElementById(
+        "searchInput"
+    )
+    .addEventListener(
+
+        "keydown",
+
+        function(event) {
+
+
+            if (
+                event.key === "Enter"
+            ) {
+
+                searchReport();
+
+            }
+
+
+        }
+
+    );
+
+
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>reflexn (backdrop test)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #050505;
+    --line: #232323;
+    --text: #ffffff;
+    --text-dim: #7a7a7a;
+    --text-faint: #454545;
+    --accent: #7C6FEF;
+    --error: #e0736b;
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    overflow: hidden;
+  }
+
+  @keyframes ripple { 0% { transform: scale(0.25); opacity: 0.5; } 100% { transform: scale(1); opacity: 0; } }
+  @keyframes breathe { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+  @keyframes sheen { 0% { left: -60%; } 100% { left: 130%; } }
+  @keyframes drift { 0%,100% { transform: translateY(0); opacity: 0.2; } 50% { transform: translateY(-8px); opacity: 0.55; } }
+  @keyframes page-in { from { opacity: 0; transform: translateY(10px) scale(0.99); } }
+  @keyframes msg-in { from { opacity: 0; transform: translateY(6px); } }
+  @keyframes dot-pulse { 0%, 80%, 100% { opacity: 0.25; } 40% { opacity: 1; } }
+
+  .page-enter { animation: page-in 480ms var(--ease-out) backwards; }
+
+  .page { height: 100%; width: 100%; display: flex; flex-direction: column; position: relative; padding: env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px); }
+
+  .masthead { display: flex; align-items: center; justify-content: space-between; padding: 28px clamp(20px, 4vw, 56px) 18px; border-bottom: 1px solid var(--line); }
+  .logo { display: flex; align-items: baseline; font-family: 'Baloo 2', -apple-system, sans-serif; font-weight: 800; font-size: clamp(20px, 2.4vw, 28px); letter-spacing: 0.5px; }
+  .logo .dot { color: var(--accent); margin-left: 2px; }
+  .kicker { font-size: 11px; letter-spacing: 3px; color: var(--text-dim); text-transform: uppercase; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+  .kicker .mark { margin-top: 0; font-size: clamp(10px, 1.1vw, 12px); letter-spacing: 4px; font-weight: 600; color: var(--text); text-transform: none; white-space: nowrap; }
+  .kicker .mark .glyph { color: var(--text-dim); font-size: 0.7em; vertical-align: 0.08em; }
+
+  .foot-bar { display: flex; align-items: center; justify-content: space-between; padding: 16px clamp(20px, 4vw, 56px); border-top: 1px solid var(--line); font-size: 10px; letter-spacing: 2px; color: var(--text-faint); text-transform: uppercase; }
+
+  .corner { position: absolute; width: 14px; height: 14px; opacity: 0.35; }
+  .corner::before, .corner::after { content: ''; position: absolute; background: var(--text-dim); }
+  .corner::before { width: 100%; height: 1px; top: 50%; }
+  .corner::after { height: 100%; width: 1px; left: 50%; }
+  .corner.tl { top: 78px; left: clamp(20px, 4vw, 56px); }
+  .corner.tr { top: 78px; right: clamp(20px, 4vw, 56px); }
+  .corner.bl { bottom: 56px; left: clamp(20px, 4vw, 56px); }
+  .corner.br { bottom: 56px; right: clamp(20px, 4vw, 56px); }
+
+  .spine { position: absolute; right: clamp(16px, 3vw, 40px); top: 50%; transform: translateY(-50%) rotate(90deg); transform-origin: center; font-size: 10px; letter-spacing: 4px; color: var(--text-faint); text-transform: uppercase; white-space: nowrap; }
+
+  .main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; overflow: hidden; padding: 0 20px; }
+  .main.started { justify-content: flex-end; }
+
+  .ripple-wrap { position: relative; width: min(34vw, 280px); height: min(34vw, 280px); display: flex; align-items: center; justify-content: center; }
+  .ring { position: absolute; width: 22%; height: 22%; border-radius: 50%; border: 1px solid #4a4a4a; animation: ripple 4.5s ease-out infinite; }
+  .center-dot { width: 6px; height: 6px; border-radius: 50%; background: #d4d4d4; animation: breathe 4.5s ease-in-out infinite; }
+  .mote { position: absolute; width: 3px; height: 3px; border-radius: 50%; background: #8a8a8a; animation: drift 4s ease-in-out infinite; }
+  .main.started .ripple-wrap, .main.started .hint, .main.started .chips, .main.started .greeting { display: none; }
+
+  @keyframes word-in { from { opacity: 0; filter: blur(6px); transform: translateY(8px); } }
+  @keyframes line-in { from { opacity: 0; } }
+  .greeting { text-align: center; margin-bottom: 8px; visibility: hidden; }
+  .greeting.ready { visibility: visible; }
+  .greeting .date { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-faint); animation: line-in 900ms ease backwards; }
+  .greeting h1 { margin: 14px 0 0; font-weight: 300; font-size: clamp(26px, 4.2vw, 44px); letter-spacing: -0.5px; line-height: 1.15; color: var(--text-dim); }
+  .greeting h1 span { display: inline-block; animation: word-in 900ms var(--ease-out) backwards; }
+  .greeting h1 .name { color: var(--text); font-weight: 400; }
+  .greeting h1 .dot { color: var(--accent); }
+  .greeting .sub { margin-top: 12px; font-size: 14px; color: var(--text-dim); animation: line-in 900ms ease backwards; animation-delay: 700ms; }
+  .greeting + .ripple-wrap { width: min(26vw, 200px); height: min(26vw, 200px); }
+
+  .chat-log { display: none; flex-direction: column; gap: 12px; width: min(600px, 92vw); flex: 1; overflow-y: auto; padding: 24px 4px 12px; }
+  .main.started .chat-log { display: flex; }
+  .msg { max-width: 78%; padding: 11px 15px; border-radius: 16px; font-size: 14px; line-height: 1.5; animation: msg-in 320ms var(--ease-out) backwards; white-space: pre-wrap; }
+  .msg.user { align-self: flex-end; background: #1a1a1a; border: 1px solid #2a2a2a; }
+  .msg.assistant { align-self: flex-start; background: transparent; border: 1px solid #232323; color: #d8d8d8; }
+  .msg.error { align-self: flex-start; border: 1px solid rgba(224,115,107,0.4); color: var(--error); }
+  .report-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; padding: 8px 14px; border: 1px solid #383838; border-radius: 18px; color: var(--text); text-decoration: none; font-size: 13px; white-space: nowrap; transition: border-color 0.15s ease, background 0.15s ease; }
+  .report-link:hover { border-color: var(--accent); background: rgba(124,111,239,0.08); }
+  .report-link .arrow { color: var(--accent); }
+  .msg.typing { display: flex; gap: 4px; align-items: center; padding: 13px 16px; }
+  .msg.typing span { width: 5px; height: 5px; border-radius: 50%; background: var(--text-dim); animation: dot-pulse 1.2s ease-in-out infinite; }
+  .msg.typing span:nth-child(2) { animation-delay: 0.15s; }
+  .msg.typing span:nth-child(3) { animation-delay: 0.3s; }
+
+  .search-pill { position: relative; margin-top: 5vh; width: min(560px, 88vw); border: 1px solid #383838; border-radius: 32px; padding: 18px 24px; display: flex; align-items: center; gap: 14px; background: #0f0f0f; overflow: hidden; flex-shrink: 0; transition: margin-top 250ms ease; }
+  .main.started .search-pill { margin-top: 14px; margin-bottom: 18px; }
+  .search-pill .sheen { position: absolute; top: 0; bottom: 0; width: 35%; background: rgba(255,255,255,0.035); animation: sheen 6s ease-in-out infinite; }
+  .search-pill input { position: relative; flex: 1; background: transparent; border: none; outline: none; color: var(--text); font-size: 15px; font-family: inherit; }
+  .search-pill input::placeholder { color: var(--text-dim); }
+  .search-pill input:disabled { opacity: 0.5; }
+  .search-pill button { position: relative; background: none; border: none; color: var(--text); font-size: 20px; cursor: pointer; line-height: 1; padding: 0; }
+  .search-pill button:disabled { opacity: 0.3; cursor: default; }
+
+  .hint { margin-top: 16px; font-size: 12px; color: var(--text-faint); text-align: center; }
+
+  .chips { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 26px; max-width: 560px; }
+  .chip { border: 1px solid #262626; border-radius: 18px; padding: 8px 16px; font-size: 12px; color: var(--text-dim); background: none; cursor: pointer; font-family: inherit; transition: border-color 0.15s ease, color 0.15s ease; }
+  .chip:hover { border-color: #4a4a4a; color: var(--text); }
+
+  /* --- TEST: decorative backdrop --- */
+  /* Everything sits under the content, is non-interactive, and fades out
+     toward the centre so the greeting, search bar and chat stay clean. */
+  .masthead, .foot-bar { position: relative; z-index: 1; }
+  .main { z-index: 1; }
+  .backdrop { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none;
+    -webkit-mask-image: radial-gradient(ellipse 36% 46% at 50% 52%, transparent 35%, #000 100%);
+            mask-image: radial-gradient(ellipse 36% 46% at 50% 52%, transparent 35%, #000 100%);
+    transition: opacity 600ms ease; }
+  .main.started ~ .backdrop, .page.chatting .backdrop { opacity: 0.45; }
+  .backdrop > * { position: absolute; color: #fff; will-change: transform;
+    transform: translate3d(calc(var(--px, 0) * var(--depth, 1) * 1px), calc(var(--py, 0) * var(--depth, 1) * 1px), 0); }
+  .backdrop .d1 { --depth: 4; }
+  .backdrop .cover { position: absolute; }
+  .backdrop .d2 { --depth: 8; }
+  .backdrop .d3 { --depth: 13; }
+  .art { fill: none; stroke: currentColor; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke;
+    opacity: 0.1; animation: shimmer-art 14s ease-in-out infinite; animation-delay: var(--dx, 0s); }
+  @keyframes shimmer-art { 0%, 100% { opacity: 0.08; } 50% { opacity: 0.14; } }
+  .art path { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 5s var(--ease-out) forwards; animation-delay: inherit; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .type { font-family: 'Bodoni Moda', 'Didot', 'Times New Roman', serif; color: #fff; opacity: 0.065; white-space: nowrap; line-height: 1; user-select: none; }
+  .t-mode { top: 11%; left: 50%; margin-left: -1.6em; font-size: clamp(90px, 15vw, 220px); letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.05; }
+  .t-couture { bottom: 7%; right: 38%; font-size: clamp(40px, 6vw, 88px); font-style: italic; }
+
+  /* Magazine covers: invented titles set like a fashion-magazine masthead. */
+  .cover { width: 8.5vw; aspect-ratio: 3 / 4; border: 1px solid currentColor; padding: 0.55vw; display: flex; flex-direction: column;
+    font-family: 'Bodoni Moda', 'Didot', serif; opacity: 0.1; animation: shimmer-art 14s ease-in-out infinite; animation-delay: var(--dx, 0s);
+    transform: translate3d(calc(var(--px, 0) * var(--depth, 1) * 1px), calc(var(--py, 0) * var(--depth, 1) * 1px), 0) rotate(var(--rot, 0deg)); }
+  .cover .mast { font-size: 1.9vw; line-height: 1; text-align: center; letter-spacing: 0.04em; }
+  .cover .issue { font-family: -apple-system, sans-serif; font-size: 0.42vw; letter-spacing: 0.2em; text-align: center; margin-top: 0.2vw; }
+  .cover .cover-fig { flex: 1; min-height: 0; width: 100%; fill: none; stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; margin-top: 0.3vw; }
+  .cover .lines { display: flex; justify-content: space-between; align-items: flex-end; gap: 4px; font-size: 0.55vw; line-height: 1.15; }
+  .cover .lines span:first-child { font-size: 0.75vw; font-style: italic; }
+  .cover .lines span:last-child { text-align: right; font-family: -apple-system, sans-serif; letter-spacing: 0.05em; }
+  .cover .barcode { position: absolute; right: 0.5vw; bottom: 22%; width: 1.3vw; fill: none; stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+  .cover[style*="width:6vw"] .mast { font-size: 1.25vw; }
+  .cover[style*="width:6vw"] .lines { font-size: 0.42vw; }
+  .cover[style*="width:6vw"] .lines span:first-child { font-size: 0.55vw; }
+  @media (max-width: 760px) {
+    .hide-sm { display: none; }
+    .cover { width: 70px; padding: 4px; } .cover .mast { font-size: 15px; } .cover .issue, .cover .lines, .cover .barcode { display: none; }
+    .backdrop { -webkit-mask-image: radial-gradient(ellipse 60% 40% at 50% 50%, transparent 30%, #000 100%); mask-image: radial-gradient(ellipse 60% 40% at 50% 50%, transparent 30%, #000 100%); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .art, .art path, .cover { animation: none !important; stroke-dashoffset: 0; }
+    .page-enter { animation-duration: 1ms !important; }
+    .ring, .center-dot, .mote, .sheen, .msg, .msg.typing span, .greeting *, .greeting h1 span { animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page page-enter">
+
+  <div class="masthead">
+    <div class="logo">PIKKCOM<span class="dot">.</span></div>
+    <div class="kicker"><span>Reflexn — Insight Reporting</span><span class="mark">R <span class="glyph">&#10022;</span> X</span></div>
+  </div>
+
+  <!-- TEST: decorative backdrop (magazine covers, fashion + tech line art). Purely visual, ignored by screen readers. -->
+  <div class="backdrop" id="backdrop" aria-hidden="true">
+    <div class="type t-mode d1">Mode</div>
+    <div class="type t-couture d3">Couture</div>
+    <div class="cover d2" style="left:3.5%; top:14%; --rot:-4deg; --dx:0s;"><div class="mast">ÉLAN</div><div class="issue">Nº 09 · AUTUMN</div><svg class="cover-fig" viewBox="0 0 60 80" aria-hidden="true"><path d="M22 20 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0 M22 16 C20 4 40 2 38 16 C42 22 44 30 40 34 M16 80 C16 56 22 44 30 42 C38 44 44 56 44 80 M24 46 L30 60 L36 46"/></svg><div class="lines"><span>THE SILK<br>ISSUE</span><span>kanjivaram,<br>reimagined</span></div><svg class="barcode" viewBox="0 0 44 34" aria-hidden="true"><path d="M4 4 V30 M6 4 V30 M9 4 V30 M10 4 V30 M13 4 V30 M17 4 V30 M18 4 V30 M21 4 V30 M24 4 V30 M25 4 V30 M28 4 V30 M31 4 V30 M33 4 V30 M34 4 V30 M37 4 V30 M40 4 V30"/></svg></div>
+    <div class="cover d1" style="right:9.5%; top:13%; --rot:3deg; --dx:5s;"><div class="mast">MAISON</div><div class="issue">Nº 12 · 2026</div><svg class="cover-fig" viewBox="0 0 60 80" aria-hidden="true"><path d="M22 20 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0 M22 16 C20 4 40 2 38 16 C42 22 44 30 40 34 M16 80 C16 56 22 44 30 42 C38 44 44 56 44 80 M24 46 L30 60 L36 46"/></svg><div class="lines"><span>MIRROR,<br>MIRROR</span><span>AI &amp; the<br>perfect fit</span></div><svg class="barcode" viewBox="0 0 44 34" aria-hidden="true"><path d="M4 4 V30 M6 4 V30 M9 4 V30 M10 4 V30 M13 4 V30 M17 4 V30 M18 4 V30 M21 4 V30 M24 4 V30 M25 4 V30 M28 4 V30 M31 4 V30 M33 4 V30 M34 4 V30 M37 4 V30 M40 4 V30"/></svg></div>
+    <div class="cover d3 hide-sm" style="left:22%; top:63%; --rot:-2deg; --dx:9s; width:6vw;"><div class="mast">ATELIER</div><div class="issue">Nº 04 · RESORT</div><svg class="cover-fig" viewBox="0 0 60 80" aria-hidden="true"><path d="M22 20 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0 M22 16 C20 4 40 2 38 16 C42 22 44 30 40 34 M16 80 C16 56 22 44 30 42 C38 44 44 56 44 80 M24 46 L30 60 L36 46"/></svg><div class="lines"><span>WESTERN<br>EDIT</span><span>denim, linen<br>&amp; more</span></div><svg class="barcode" viewBox="0 0 44 34" aria-hidden="true"><path d="M4 4 V30 M6 4 V30 M9 4 V30 M10 4 V30 M13 4 V30 M17 4 V30 M18 4 V30 M21 4 V30 M24 4 V30 M25 4 V30 M28 4 V30 M31 4 V30 M33 4 V30 M34 4 V30 M37 4 V30 M40 4 V30"/></svg></div>
+    <svg class="art d2" style="left:15%; top:13%; height:30vh; --dx:1s;" viewBox="0 0 60 150" aria-hidden="true"><path d="M24 12 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0 M30 18 V24 M20 28 Q30 24 40 28 M22 28 L26 60 Q18 100 8 146 H52 Q42 100 34 60 L38 28 M26 60 H34 M20 28 L14 60 L18 78 M40 28 L46 56 L40 70 M24 12 C22 4 38 2 36 12"/></svg>
+    <svg class="art d1" style="left:3.5%; top:50%; width:9vw; --dx:6s;" viewBox="0 0 110 80" aria-hidden="true"><path d="M8 72 H102 M14 72 V62 H96 V72 M24 62 V22 Q24 12 34 12 H86 Q96 12 96 22 V40 H70 V62 M88 40 V50 M85 50 H91 M88 50 V56 M96 20 H104 V34 H96 M40 12 V6 H48 V12 M30 30 H60"/></svg>
+    <svg class="art d2" style="left:5.5%; bottom:7%; width:13vw; --dx:3s;" viewBox="0 0 120 90" aria-hidden="true"><path d="M10 10 H110 M14 10 V84 M106 10 V84 M8 84 H20 M100 84 H112 M34 10 V16 M24 30 L34 16 L44 30 M24 30 H44 L46 70 H22 Z M60 10 V16 M50 30 L60 16 L70 30 M52 30 H68 L76 76 H44 Z M86 10 V16 M78 30 L86 16 L94 30 M78 30 H94 V64 H78 Z M86 30 V64"/></svg>
+    <svg class="art d3 hide-sm" style="left:22%; top:52%; width:4.6vw; --dx:9s;" viewBox="0 0 80 60" aria-hidden="true"><path d="M5 18 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0 M5 44 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0 M22 22 L76 40 M22 40 L76 20 M42.5 30 a1.5 1.5 0 1 0 3.0 0 a1.5 1.5 0 1 0 -3.0 0 "/></svg>
+    <svg class="art d2 hide-sm" style="left:3%; top:38%; width:6vw; --dx:12s;" viewBox="0 0 100 40" aria-hidden="true"><path d="M6 12 H94 M10 12 C10 30 16 34 28 34 C40 34 44 26 44 14 M56 14 C56 26 60 34 72 34 C84 34 90 30 90 12 M44 16 C48 12 52 12 56 16"/></svg>
+    <svg class="art d3 hide-sm" style="left:27%; bottom:9%; height:7vh; --dx:5s;" viewBox="0 0 30 80" aria-hidden="true"><path d="M8 40 H22 V76 H8 Z M10 40 V26 L20 18 V40 M6 52 H24"/></svg>
+    <svg class="art d1 hide-sm" style="left:27.5%; top:15%; height:17vh; --dx:8s;" viewBox="0 0 70 124" aria-hidden="true"><path d="M6 4 H64 V104 H6 Z M11 9 H59 V99 H11 Z M28 36 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0 M22 74 Q24 50 35 48 Q46 50 48 74 M16 24 V16 H24 M46 16 H54 V24 M16 80 V88 H24 M54 80 V88 H46 M16 60 H54 M28 104 L22 118 M42 104 L48 118 M18 118 H52"/></svg>
+    <svg class="art d3 hide-sm" style="left:30%; top:44%; width:2.6vw; --dx:2s;" viewBox="0 0 50 64" aria-hidden="true"><path d="M8 6 H42 M8 54 H42 M12 6 V54 M38 6 V54 M12 16 L38 22 M12 24 L38 30 M12 32 L38 38 M12 40 L38 46 M38 46 C50 52 46 60 36 62"/></svg>
+    <svg class="art d2 hide-sm" style="left:34%; bottom:6%; width:9vw; --dx:10s;" viewBox="0 0 130 50" aria-hidden="true"><path d="M4 42 C30 42 42 10 72 10 C102 10 106 34 88 36 C76 38 74 26 82 24 M4 48 C32 48 46 16 72 16 C94 16 98 30 88 30 M14 42 V38 M24 40 V36 M34 36 V32 M44 30 V26"/></svg>
+    <svg class="art d3 hide-sm" style="left:12%; top:31%; width:2.2vw; --dx:4s;" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 4 C32 20 40 28 56 30 C40 32 32 40 30 56 C28 40 20 32 4 30 C20 28 28 20 30 4 Z M50 4 C51 9 52 10 56 11 C52 12 51 13 50 18 C49 13 48 12 44 11 C48 10 49 9 50 4 Z"/></svg>
+    <svg class="art d2" style="right:21%; top:13%; height:29vh; --dx:2s;" viewBox="0 0 60 150" aria-hidden="true"><path d="M24 12 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0 M30 18 V24 M20 28 Q30 24 40 28 M22 28 L26 60 Q20 100 14 146 H46 Q40 100 34 60 L38 28 M38 28 L24 68 Q30 104 26 146 M38 28 C48 40 50 70 44 96 M20 28 L16 58 L22 70 M20 92 H40 M18 116 H42"/></svg>
+    <svg class="art d1" style="right:5%; top:49%; height:12vh; --dx:7s;" viewBox="0 0 52 92" aria-hidden="true"><path d="M6 4 H46 Q50 4 50 8 V84 Q50 88 46 88 H6 Q2 88 2 84 V8 Q2 4 6 4 Z M20 10 H32 M16 38 H36 L34 60 H18 Z M21 38 C21 28 31 28 31 38 M18 76 H34"/></svg>
+    <svg class="art d3" style="right:12%; bottom:13%; height:20vh; --dx:0s;" viewBox="0 0 80 130" aria-hidden="true"><path d="M40 4 V14 M34 14 H46 M28 20 Q40 14 52 20 Q57 38 48 52 Q59 72 55 94 H25 Q21 72 32 52 Q23 38 28 20 Z M32 52 H48 M40 20 V94 M40 94 V120 M28 124 H52 M40 120 L28 124 M40 120 L52 124"/></svg>
+    <svg class="art d2 hide-sm" style="right:22%; top:52%; width:5.4vw; --dx:11s;" viewBox="0 0 90 64" aria-hidden="true"><path d="M8 18 H28 L34 10 H56 L62 18 H82 V58 H8 Z M32 38 a13 13 0 1 0 26 0 a13 13 0 1 0 -26 0 M39 38 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0 M70 26 H76"/></svg>
+    <svg class="art d1 hide-sm" style="right:25%; bottom:9%; width:5.2vw; --dx:3s;" viewBox="0 0 80 70" aria-hidden="true"><path d="M10 30 H70 L64 66 H16 Z M26 30 C26 12 54 12 54 30 M36 42 H44 M14 44 H66"/></svg>
+    <svg class="art d3 hide-sm" style="right:3%; bottom:8%; width:6.4vw; --dx:9s;" viewBox="0 0 100 70" aria-hidden="true"><path d="M8 52 C8 46 14 44 22 44 C38 44 48 36 58 24 C64 16 72 14 78 18 L84 22 C86 24 84 28 80 28 C72 30 68 36 66 46 L64 62 H60 L58 50 C50 54 40 56 30 56 H12 C9 56 8 54 8 52 Z M60 50 C62 42 66 36 72 32"/></svg>
+    <svg class="art d2 hide-sm" style="right:30%; top:40%; width:2.6vw; --dx:6s;" viewBox="0 0 60 90" aria-hidden="true"><path d="M24 6 H36 V18 H24 Z M27 18 V26 H33 V18 M12 26 H48 Q54 26 54 32 V78 Q54 84 48 84 H12 Q6 84 6 78 V32 Q6 26 12 26 Z M14 46 H46 V64 H14 Z"/></svg>
+    <svg class="art d3 hide-sm" style="right:31%; bottom:24%; width:2.6vw; --dx:13s;" viewBox="0 0 50 64" aria-hidden="true"><path d="M10 44 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0 M17 20 L25 10 L33 20 L25 30 Z M17 20 H33 M21 20 L25 30 L29 20"/></svg>
+    <svg class="art d1 hide-sm" style="right:27%; top:12%; width:10vw; --dx:4s;" viewBox="0 0 140 60" aria-hidden="true"><path d="M4 30 H40 L52 18 H84 M60 18 V8 M4 44 H66 L76 34 H106 L116 44 H134 M96 34 V52 M84 18 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M58 6 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M134 44 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M94 54 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 "/></svg>
+    <svg class="art d2 hide-sm" style="right:12%; top:43%; width:4.6vw; --dx:8s;" viewBox="0 0 72 40" aria-hidden="true"><path d="M4 20 L18 4 H68 V36 H18 Z M15 20 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 M30 15 H58 M30 25 H48"/></svg>
+    <svg class="art d1 hide-sm" style="right:3%; top:70%; width:5vw; --dx:1s;" viewBox="0 0 80 60" aria-hidden="true"><path d="M6 56 H76 M10 56 V40 H18 V56 M24 56 V28 H32 V56 M38 56 V34 H46 V56 M52 56 V16 H60 V56 M8 30 L26 18 L42 24 L64 6 M58 6 H64 V12"/></svg>
+  </div>
+
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+  <div class="spine">Retail Intelligence</div>
+
+  <div class="main" id="main">
+    <div class="greeting" id="greeting" aria-live="polite">
+      <div class="date" id="greet-date"></div>
+      <h1 id="greet-line"></h1>
+      <div class="sub">what would you like to explore today?</div>
+    </div>
+
+    <div class="ripple-wrap">
+      <div class="ring"></div>
+      <div class="ring" style="animation-delay:1.5s"></div>
+      <div class="ring" style="animation-delay:3s"></div>
+      <div class="center-dot"></div>
+      <div class="mote" style="top:15%; left:20%; animation-delay:0.5s"></div>
+      <div class="mote" style="bottom:18%; right:15%; animation-delay:1.8s"></div>
+      <div class="mote" style="top:60%; right:8%; animation-delay:2.6s"></div>
+    </div>
+
+    <div class="chat-log" id="chat-log"></div>
+
+    <div class="search-pill">
+      <div class="sheen"></div>
+      <input type="text" id="query" placeholder="ask for a report..." onkeydown="if(event.key==='Enter') sendMessage()">
+      <button id="send-btn" onclick="sendMessage()" aria-label="submit">&#8594;</button>
+    </div>
+
+    <div class="hint">tap to type, or wave to begin</div>
+
+    <div class="chips">
+      <button class="chip" onclick="sendMessage(&quot;this month's revenue&quot;)">this month's revenue</button>
+      <button class="chip" onclick="sendMessage('sarees performance')">sarees performance</button>
+      <button class="chip" onclick="sendMessage('top regions')">top regions</button>
+    </div>
+  </div>
+
+  <div class="foot-bar">
+    <span>A Pikkcom Product</span>
+    <span>reflexn.app</span>
+  </div>
+
+</div>
+
+<script>
+  const chatHistory = [];
+  const main = document.getElementById('main');
+  const log = document.getElementById('chat-log');
+  const input = document.getElementById('query');
+  const sendBtn = document.getElementById('send-btn');
+
+  function addBubble(role, text) {
+    const div = document.createElement('div');
+    div.className = 'msg ' + role;
+    div.textContent = text;
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+    return div;
+  }
+
+  function addReportLink(bubble, href) {
+    const a = document.createElement('a');
+    a.className = 'report-link';
+    a.href = href;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.innerHTML = 'open complete report <span class="arrow">&#8599;</span>';
+    bubble.appendChild(document.createElement('br'));
+    bubble.appendChild(a);
+    log.scrollTop = log.scrollHeight;
+  }
+
+  function addTyping() {
+    const div = document.createElement('div');
+    div.className = 'msg typing';
+    div.innerHTML = '<span></span><span></span><span></span>';
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+    return div;
+  }
+
+  async function sendMessage(preset) {
+    const text = (preset || input.value || '').trim();
+    if (!text) return;
+
+    if (!main.classList.contains('started')) {
+      main.classList.add('started');
+      document.querySelector('.page').classList.add('chatting');
+    }
+
+    input.value = '';
+    input.disabled = true;
+    sendBtn.disabled = true;
+
+    addBubble('user', text);
+    const priorHistory = chatHistory.slice();
+    chatHistory.push({ role: 'user', content: text });
+    const typing = addTyping();
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: text, history: priorHistory }),
+      });
+      const data = await res.json();
+      typing.remove();
+
+      if (!res.ok) {
+        addBubble('error', data.error || 'something went wrong');
+        return;
+      }
+
+      const bubble = addBubble('assistant', data.reply || '(no reply)');
+      if (data.reportUrl) addReportLink(bubble, data.reportUrl);
+      chatHistory.push({ role: 'assistant', content: data.reply || '' });
+    } catch (e) {
+      typing.remove();
+      addBubble('error', 'could not reach the server');
+    } finally {
+      input.disabled = false;
+      sendBtn.disabled = false;
+      input.focus();
+    }
+  }
+
+  // TEST: the backdrop drifts a few pixels with the pointer (deeper layers move
+  // more), and dims once a conversation starts.
+  (function backdropMotion() {
+    const bd = document.getElementById('backdrop');
+    if (!bd || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let tx = 0, ty = 0, x = 0, y = 0, raf = 0;
+    const tick = () => {
+      x += (tx - x) * 0.06; y += (ty - y) * 0.06;
+      bd.style.setProperty('--px', x.toFixed(2));
+      bd.style.setProperty('--py', y.toFixed(2));
+      raf = Math.abs(tx - x) + Math.abs(ty - y) > 0.01 ? requestAnimationFrame(tick) : 0;
+    };
+    addEventListener('pointermove', (e) => {
+      tx = (e.clientX / innerWidth - 0.5) * -2;
+      ty = (e.clientY / innerHeight - 0.5) * -2;
+      if (!raf) raf = requestAnimationFrame(tick);
+    }, { passive: true });
+  })();
+
+  function showGreeting(username) {
+    const h = new Date().getHours();
+    const part = h < 5 ? 'good evening' : h < 12 ? 'good morning' : h < 17 ? 'good afternoon' : 'good evening';
+    const name = username ? username.charAt(0).toUpperCase() + username.slice(1) : '';
+    const words = (part + (name ? ',' : '')).split(' ');
+    const line = document.getElementById('greet-line');
+    line.innerHTML = '';
+    // Each word fades up in turn; the name lands last.
+    words.forEach((w, i) => {
+      const span = document.createElement('span');
+      span.textContent = w;
+      span.style.animationDelay = i * 120 + 'ms';
+      line.append(span, ' ');
+    });
+    const tail = document.createElement('span');
+    tail.style.animationDelay = words.length * 120 + 'ms';
+    if (name) {
+      const n = document.createElement('span');
+      n.className = 'name';
+      n.textContent = name;
+      tail.append(n);
+    }
+    const dot = document.createElement('span');
+    dot.className = 'dot';
+    dot.textContent = '.';
+    tail.append(dot);
+    line.append(tail);
+    document.getElementById('greet-date').textContent = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' });
+    document.getElementById('greeting').classList.add('ready');
+  }
+
+  fetch('/api/me')
+    .then(async (r) => {
+      if (!r.ok) { window.location.href = '/'; return; }
+      const me = await r.json();
+      showGreeting(me.username);
+    })
+    .catch(() => showGreeting(''));
+</script>
+
+</body>
+</html>
